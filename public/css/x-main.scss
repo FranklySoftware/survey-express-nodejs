@@ -1,0 +1,369 @@
+/* css reset: http://html5doctor.com/html-5-reset-stylesheet/ */
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:0 0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+$beginY: 200px;
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #43a735;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+}
+
+#backgroundTexture {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    /*height: 600px;*/
+    z-index: -500;
+    background-image: url(../images/bg-texture.jpg);
+    /*background: url(images/bg.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#backgroundGrid {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    /*height: 600px;*/
+    z-index: -100;
+    background-image: url(../images/bg-img.png);
+    opacity: 0.5;
+}
+
+#header {
+    /*position: absolute;*/
+    top: 0;
+    height: 90px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(8,8,8,0.2);
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-image: url(../images/logo.png);
+        width: 262px;
+        height: 54px;
+    }
+    .txt {
+        color: black;
+        position: absolute;
+        top: 35px;
+        font-size: 1.2em;
+    }
+    .txt1 {
+        right: 640px;
+
+    }
+    .txt2 {
+         right: 430px;
+        
+    }
+    .txt3 {
+         right: 400px;
+        
+    }
+    .txt4 {
+        color: #50b948;
+        right: 120px;
+    }
+}
+    
+#container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    #welcomeView {
+        display: none;
+        text-align: center;
+
+        h1 {
+            position: relative;
+            top: $beginY;
+            /*margin-top: 110px;*/
+            font-size: 6em;
+            font-weight: 300;
+        }
+        h2 {
+            position: relative;
+            top: $beginY + 10;
+            font-size: 1.7em;
+            font-weight: 300;
+        }
+        .beginBtn {
+            position: relative;
+            top: $beginY + 280;
+        }
+    }
+
+    #questionsView {
+        display: none;
+        position: relative;
+
+        .question {
+            text-align: center;
+
+            .questionText {
+                top: $beginY + 50;
+                position: relative;
+                font-size: 3.5em;
+            }
+        }
+
+        .continueBtn {
+            position: relative;
+            top: $beginY + 400;
+        }
+    }
+
+    #resultsView {
+        display: none;
+        position: relative;
+        text-align: center;
+        margin-top: 200px;
+
+        .topPanel {
+            height: 760px;
+            
+            .titleText {
+                font-size: 4em;
+            }
+            .sample {
+                background-color: white;
+                top: 225px;
+                left: 50%;
+                position: absolute;
+                width: 450px;
+                height: 260px;
+
+                .txt {
+                    position: relative;
+                    top: 270px;
+                    font-size: 1.3em;
+                }
+                .tag {
+                    position: absolute;
+                    
+                    width: 69px;
+                    height: 69px;
+                    bottom: -15px;
+                    right: -15px;
+                }
+                .tag0 {
+                    background-image: url(../images/tag-pdf.png);
+                }
+                .tag1 {
+                    background-image: url(../images/tag-video.png);
+                }
+                .tag2 {
+                    background-image: url(../images/tag-www.png);
+                }
+            }
+            .sample0 {
+                margin-left: -715px;
+            }
+            .sample1 {
+                margin-left: -215px;
+            }
+            .sample2 {
+                margin-left: 285px;
+            }
+            .secondaryText {
+                position: relative;
+                top: 470px;
+                font-size: 2em;
+
+                .title {
+                    font-size: 4em;
+                }
+            }
+            .downArrow {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                top: 550px;
+                background-image: url(../images/down-arrow.png);
+                width: 89px;
+                height: 29px;
+            }
+        }
+        .secondPanel {
+            background-color: white;
+            height: 800px;
+            color: #43a735;
+
+            .title {
+                position: relative;
+                font-size: 3.5em;
+                top: 100px;
+            }
+            .sample {
+                background-color: white;
+                top: 225px;
+                left: 50%;
+                position: absolute;
+                width: 450px;
+                height: 260px;
+
+                .txt {
+                    position: relative;
+                    top: 270px;
+                    font-size: 1.3em;
+                }
+                .tag {
+                    position: absolute;
+                    
+                    width: 69px;
+                    height: 69px;
+                    bottom: -15px;
+                    right: -15px;
+                }
+                .tag0 {
+                    background-image: url(../images/tag-pdf.png);
+                }
+                .tag1 {
+                    background-image: url(../images/tag-video.png);
+                }
+                .tag2 {
+                    background-image: url(../images/tag-www.png);
+                }
+            }
+            .sample0 {
+                margin-left: -715px;
+            }
+            .sample1 {
+                margin-left: -215px;
+            }
+            .sample2 {
+                margin-left: 285px;
+            }
+
+            .greenBar {
+                
+            }
+
+        }
+
+
+    }
+    #loadingText {
+        text-align: center;
+        display: none;
+        position: relative;
+        top: 570px;
+        font-size: 2.2em;
+    }
+}
+
+.lgBtn {
+    text-align: center;
+    width: 330px;
+    height: 40px;
+    padding-top: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 1.8em;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lgBtn:hover {
+    margin-top: -3px;
+    font-size: 2em;
+    width: 340px;
+    height: 45px;
+
+    /*color: #073f2c;*/
+}
+
+.mic-container {
+    display: none;
+    background-color: white;
+    /*opacity: 0.5;*/
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+
+    /*display: none;*/
+    /*position: relative;*/
+    /*top: 200px;*/
+    /*margin-bottom: 40px;*/
+
+    
+
+    #text {
+        color: black;
+        /*font-size: 4em;*/
+    }
+}
+
+/*
+.microphone {
+    width: 100%;
+}
+.micButton {
+    background: url('../images/microphone.svg') no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+.micButton.recording {
+    background: url('../images/microphone_running.svg') no-repeat;
+}
+.micButton.recording:hover {
+    background: url('../images/microphone_running.svg') no-repeat;
+}
+.micButton-preload {
+    display: none;
+}
+.micButton-preload, .micButton:hover {
+    background: url('../images/microphone_hover.svg') no-repeat;
+}
+.micButton:hover .micText {
+    text-decoration: underline;
+}
+.errorMsg {
+    font-weight: bold;
+    color: red;
+}*/
+
+#curtainView {
+    display: none;
+    position: absolute;
+
+    .bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        opacity: 0.6;
+    }
+
+    .loadingPanel {
+        background-color: white;
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        border-radius: 7px 20px 15px;
+
+        .text {
+            color: black;
+            position: absolute;
+            left: 17px;
+            top: 5px;
+        }
+    }
+}

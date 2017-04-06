@@ -1,0 +1,12 @@
+# ignore mac files
+.DS_Store
+docs/
+node_modules/
+creative/
+.env
+.idea/
+deploy.sh
+data/
+test.html
+extracts/
+public/.sass-cache

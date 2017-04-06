@@ -1,0 +1,2305 @@
+
+@font-face {
+    font-family: "icons-ibm-v3";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//1.www.s81c.com/common/fonts/icons-ibm-v3.eot?") format("eot"), url("//1.www.s81c.com/common/fonts/icons-ibm-v3.eot?#iefix") format("embedded-opentype"), url("//1.www.s81c.com/common/fonts/icons-ibm-v3.woff") format("woff"), url("//1.www.s81c.com/common/fonts/icons-ibm-v3.ttf") format("truetype"), url("//1.www.s81c.com/common/fonts/icons-ibm-v3.svg#icons-ibm-v3") format("svg");
+}
+@font-face {
+    font-family: "Helvetica Neue Light";
+    src: url("/cloud-computing/bluemix/api/global/fonts/light/helvetica-neue-light.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/light/helvetica-neue-light.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/light/helvetica-neue-light.woff") format("woff"), url("/cloud-computing/bluemix/api/global/fonts/light/helvetica-neue-light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Light Italic";
+    src: url("/cloud-computing/bluemix/api/global/fonts/light-italic/helvetica-neue-light-italic.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/light-italic/helvetica-neue-light-italic.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/light-italic/helvetica-neue-light-italic.woff") format("woff"), url("/cloud-computing/bluemix/api/global/fonts/light-italic/helvetica-neue-light-italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Medium";
+    src: url("/cloud-computing/bluemix/api/global/fonts/medium/helvetica-neue-medium.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/medium/helvetica-neue-medium.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/medium/helvetica-neue-medium.woff") format("woff"), url("./cloud-computing/bluemix/api/global/fonts/medium/helvetica-neue-medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Medium Italic";
+    src: url("/cloud-computing/bluemix/api/global/fonts/medium-italic/helvetica-neue-medium-italic.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/medium-italic/helvetica-neue-medium-italic.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/medium-italic/helvetica-neue-medium-italic.woff") format("woff"), url("/cloud-computing/bluemix/api/global/fonts/medium-italic/helvetica-neue-medium-italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url("/cloud-computing/bluemix/api/global/fonts/bold/helvetica-neue-bold.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/bold/helvetica-neue-bold.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/bold/helvetica-neue-bold.woff") format("woff"), url("/cloud-computing/bluemix/api/global/fonts/bold/helvetica-neue-bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Bold Italic";
+    src: url("/cloud-computing/bluemix/api/global/fonts/bold-italic/helvetica-neue-bold-italic.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/bold-italic/helvetica-neue-bold-italic.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/bold-italic/helvetica-neue-bold-italic.woff") format("woff"), url("/cloud-computing/bluemix/api/global/fonts/bold-italic/helvetica-neue-bold-italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Roman";
+    src: url("/cloud-computing/bluemix/api/global/fonts/roman/helvetica-neue-roman.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/roman/helvetica-neue-roman.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/roman/helvetica-neue-roman.woff") format("woff"), url("./cloud-computing/bluemix/api/global/fonts/roman/helvetica-neue-roman.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Neue Roman Italic";
+    src: url("/cloud-computing/bluemix/api/global/fonts/roman-italic/helvetica-neue-roman-italic.eot?") format("eot"), url("/cloud-computing/bluemix/api/global/fonts/roman-italic/helvetica-neue-roman-italic.woff2") format("woff2"), url("/cloud-computing/bluemix/api/global/fonts/roman-italic/helvetica-neue-roman-italic.woff") format("woff"), url("/cloud-computing/bluemix/api/global/fonts/roman-italic/helvetica-neue-roman-italic.ttf") format("truetype");
+}
+body.bluemix-v18 main * {
+    box-sizing: border-box;
+}
+body, html {
+    font-family: "HelveticaNeue-Light","HelvLightIBM",Arial,sans-serif !important;
+}
+main.v18 strong {
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+}
+.row {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.bluemix-main {
+    padding: 50px 0 0;
+    width: 100%;
+}
+.bluemix-main.v18 {
+    padding-top: 0;
+}
+footer.footer {
+    clear: left;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.bluemix-main h1, .bluemix-main h2, .bluemix-main h3, .bluemix-main h4, .bluemix-main h5 {
+    box-shadow: none;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.bluemix-main h1 {
+    font-size: 3.375em;
+    line-height: 1em;
+}
+.bluemix-main h2 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+.bluemix-main h2.title {
+    font-size: 48px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.bluemix-main h2.title + h3 {
+    font-size: 32px;
+    text-align: center;
+}
+.bluemix-main section > div > h2 {
+    padding-bottom: 40px;
+}
+.bluemix-main section > div > h2 + .ibm-col-1, .bluemix-main section > div > h2 + .ibm-col-1 p {
+    margin-top: 0;
+    padding-top: 0;
+}
+.bluemix-main section > div > h2.title {
+    padding-bottom: 25px;
+}
+.bluemix-main section > div > h2.title + h3 {
+    padding-bottom: 45px;
+}
+.bluemix-main h2 + h4 {
+    line-height: 28px;
+    margin-top: 15px;
+}
+.bluemix-main h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.bluemix-main h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.bluemix-main h5 {
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 20px;
+    line-height: 24px;
+}
+.bluemix-main p, .bluemix-main [class*="ibm-col-"] {
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+}
+.bluemix-main p.large {
+    color: #666;
+    font-size: 20px;
+    line-height: 28px;
+}
+.bluemix-main [class*="ibm-col-"] h1, .bluemix-main [class*="ibm-col-"] h2, .bluemix-main [class*="ibm-col-"] h3, .bluemix-main [class*="ibm-col-"] h4 {
+    padding-left: 0;
+    text-align: left;
+}
+.bluemix-main [class*="ibm-col-"] p + a.cta {
+    margin-top: 20px;
+}
+.bluemix-main [class*="ibm-col-"] {
+    clear: none;
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+.bluemix-main [class*="ibm-col-"] h3 {
+    color: #000;
+    font-size: 24px;
+}
+.bluemix-main section {
+    clear: left;
+    display: block;
+    float: left;
+    padding: 60px 10px 50px;
+    text-align: center;
+    width: 100%;
+}
+.bluemix-main section > div {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    max-width: 1274px;
+    text-align: left;
+    width: 100%;
+}
+.bluemix-main .ibm-row {
+    clear: left;
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.bluemix-main .ibm-col-1 {
+    clear: left;
+    width: 100%;
+}
+.bluemix-main .ibm-col-2 {
+    width: 50%;
+}
+.bluemix-main .ibm-col-2 .ibm-col-2:nth-child(n+1), .bluemix-main .ibm-col-3 .ibm-col-2:nth-child(n+1) {
+    padding-left: 0;
+}
+.bluemix-main .ibm-col-2 .ibm-col-2:last-child, .bluemix-main .ibm-col-3 .ibm-col-2:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.bluemix-main .ibm-col-3 .ibm-col-3:nth-child(1) {
+    padding-left: 0;
+}
+.bluemix-main .ibm-col-3 .ibm-col-3:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.bluemix-main .ibm-col-3 {
+    width: 33.33%;
+}
+.bluemix-main .ibm-col-3-2 {
+    width: 66.66%;
+}
+.bluemix-main .ibm-col-4 {
+    width: 25%;
+}
+.bluemix-main .ibm-col-4-3 {
+    width: 75%;
+}
+.bluemix-main .ibm-col-4 + .ibm-col-4-3 {
+    padding: 0;
+}
+.bluemix-main .ibm-col-5 {
+    width: 20%;
+}
+.bluemix-main .ibm-col-6 {
+    width: 16.66%;
+}
+.bluemix-main [class*="ibm-col-"] > span {
+    display: inline-block;
+    height: 100%;
+    padding: 0 10px;
+    width: 100%;
+}
+.bluemix-main [class*="ibm-col-"] > img {
+    width: 100%;
+}
+.bluemix-main a.cta {
+    background-color: #00b4a0;
+    border: 2px solid transparent;
+    color: #25343e;
+    display: inline-block;
+    float: none;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    letter-spacing: 0.0222em;
+    line-height: 50px;
+    padding: 0 45px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+    white-space: nowrap;
+}
+.bluemix-main a.cta.blue {
+    background-color: transparent;
+    border-color: #5596e6;
+    color: #5596e6;
+}
+.bluemix-main a.cta.blue:hover {
+    background-color: #5596e6;
+    color: #fff;
+}
+.bluemix-main a.cta.blue.rev {
+    background-color: #5596e6;
+    border-color: #5596e6;
+    color: #fff;
+}
+.bluemix-main a.cta.blue.rev:hover {
+    background-color: transparent;
+    color: #5596e6;
+}
+.bluemix-main a.cta.white {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.bluemix-main a.cta.white:hover {
+    background-color: #fff;
+    color: #2d3f4a;
+}
+.bluemix-main a.cta.white.rev {
+    background-color: #fff;
+    border-color: #fff;
+    color: #2d3f4a;
+}
+.bluemix-main a.cta.white.rev:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.bluemix-main a.cta.green {
+    background-color: transparent;
+    border-color: #00b4a0;
+    color: #00b4a0;
+}
+.bluemix-main a.cta.green:hover {
+    background-color: #00b4a0;
+    color: #fff;
+}
+.bluemix-main a.cta.green-v2 {
+    background-color: #41d0bd;
+    border-color: #41d0bd;
+}
+.bluemix-main a.cta.green-v2:hover {
+    background-color: #01a492;
+    border-color: #01a492;
+}
+.bluemix-main a.cta.green.rev {
+    background-color: #00b4a0;
+    border-color: #00b4a0;
+    color: #fff;
+}
+.bluemix-main a.cta.green.rev:hover {
+    background-color: transparent;
+    color: #00b4a0;
+}
+body.bluemix-v18 section.hero a.cta.green-v2 {
+    background-color: #5aaafa;
+    border-color: #5aaafa;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal !important;
+    line-height: 19.2px;
+    min-width: 120px;
+    padding: 11.2px 18px;
+    text-transform: none;
+}
+body.bluemix-v18 section.hero a.cta.green-v2:hover {
+    background-color: #5596e6;
+    border-color: #5596e6;
+}
+.ui-hexagon-cnt {
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 30px;
+    min-width: 135px !important;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+    width: 135px;
+}
+.bluemix-main [class*="ibm-col-"] .ui-hexagon-cnt h3, .bluemix-main [class*="ibm-col-"] .ui-hexagon-cnt h4, .ui-hexagon-cnt h3, .ui-hexagon-cnt h4 {
+    float: none;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 5px auto 0;
+    max-width: 135px;
+    text-align: center;
+    width: 100%;
+}
+.bluemix-main [class*="ibm-col-"] .ui-hexagon-cnt h4, .ui-hexagon-cnt h4 {
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    line-height: 17px;
+}
+.ui-hexagon-cnt h4 span {
+    color: #000;
+    font-style: italic;
+}
+.ui-hexagon {
+    background-color: white;
+    display: block;
+    float: none;
+    height: 88px;
+    line-height: 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 109px;
+}
+.ui-hexagon > div {
+    border-bottom: 4px solid #dfe6eb;
+    border-top: 4px solid #dfe6eb;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 88px;
+    width: 50px;
+}
+.ui-hexagon > div::before, .ui-hexagon > div::after {
+    background-color: inherit;
+    content: "";
+    height: 49px;
+    position: absolute;
+    top: 20px;
+    transform: rotate(-45deg) matrix(1, -0.267949, -0.267949, 1, 0, 0);
+    width: 49px;
+    z-index: 1;
+}
+.ui-hexagon > div::before {
+    border-left: 4px solid #dfe6eb;
+    border-top: 4px solid #dfe6eb;
+    box-sizing: border-box;
+    left: 5px;
+}
+.ui-hexagon > div::after {
+    border-bottom: 4px solid #dfe6eb;
+    border-right: 4px solid #dfe6eb;
+    box-sizing: border-box;
+    right: 5px;
+}
+.ui-hexagon > img {
+    display: block;
+    height: 50px;
+    left: 29px;
+    margin: 0 auto;
+    position: absolute;
+    top: 19px;
+    width: 50px;
+    z-index: 3;
+}
+.ui-hexagon-cnt.blue .ui-hexagon > div, .ui-hexagon-cnt.blue .ui-hexagon > div::before, .ui-hexagon-cnt.blue .ui-hexagon > div::after, .ui-hexagon-cnt.blue h4 {
+    border-color: #00aed1;
+    color: #00aed1;
+}
+.ui-hexagon-cnt.green .ui-hexagon > div, .ui-hexagon-cnt.green .ui-hexagon > div::before, .ui-hexagon-cnt.green .ui-hexagon > div::after, .ui-hexagon-cnt.green h4 {
+    border-color: #00b299;
+    color: #00b299;
+}
+section.web-app-services .ui-hexagon-cnt {
+    min-width: 184px !important;
+}
+.ui-boilerplate-cnt, .ui-foundry-cnt {
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 30px;
+    min-width: 145px !important;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+    width: 145px;
+}
+.ui-boilerplate, .ui-foundry {
+    background-color: #fff;
+    border: 4px solid #dfe6eb;
+    border-radius: 10px;
+    display: flex;
+    float: none;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+    width: 88px;
+}
+.bluemix-main [class*="ibm-col-"] .ui-boilerplate-cnt h3, .bluemix-main [class*="ibm-col-"] .ui-boilerplate-cnt h4, .ui-boilerplate-cnt h3, .ui-boilerplate-cnt h4, .bluemix-main [class*="ibm-col-"] .ui-foundry-cnt h3, .bluemix-main [class*="ibm-col-"] .ui-foundry-cnt h4, .ui-foundry-cnt h3, .ui-foundry-cnt h4 {
+    float: none;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 5px auto 0;
+    max-width: 135px;
+    text-align: center;
+    width: 100%;
+}
+.ui-boilerplate-cnt h4, .ui-foundry-cnt h4 {
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    line-height: 17px;
+}
+.ui-boilerplate-cnt h4 span, .ui-foundry-cnt h4 span {
+    color: #000;
+    font-style: italic;
+}
+.ui-boilerplate img, .ui-foundry img {
+    border: 0 none;
+    border-radius: 0;
+    display: block;
+    height: 50px;
+    left: 15px;
+    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    z-index: 3;
+}
+.ui-boilerplate-cnt.blue .ui-boilerplate, .ui-boilerplate-cnt.blue h4 {
+    border-color: #00aed1;
+    color: #00aed1;
+}
+.ui-boilerplate-cnt.green .ui-boilerplate, .ui-boilerplate-cnt.green h4 {
+    border-color: #00b299;
+    color: #00b299;
+}
+.ui-foundry {
+    border-radius: 50%;
+}
+.ui-foundry-cnt.blue .ui-foundry, .ui-foundry-cnt.blue h4 {
+    border-color: #00aed1;
+    color: #00aed1;
+}
+.ui-foundry-cnt.green .ui-foundry, .ui-foundry-cnt.green h4 {
+    border-color: #00b299;
+    color: #00b299;
+}
+a.icon-link {
+    display: inline-block;
+    float: none;
+    min-width: 25px;
+    position: relative;
+    text-decoration: none;
+}
+a.icon-link::before {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: "icons-ibm-v3";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    left: 1px;
+    position: absolute;
+    text-decoration: none;
+    text-rendering: optimizelegibility;
+    text-transform: none;
+}
+a.icon-link.facebook::before {
+    color: #7cc7ff;
+    content: "";
+    font-size: 2em;
+}
+a.icon-link.twitter::before {
+    color: #7cc7ff;
+    content: "";
+    font-size: 2em;
+}
+a.icon-link.youtube::before {
+    color: #7cc7ff;
+    content: "";
+    font-size: 2em;
+}
+a.icon-link.linkedin::before {
+    color: #7cc7ff;
+    content: "";
+    font-size: 2em;
+}
+.bluemix-main .link-chevron, .bluemix-main a.link-chevron {
+    color: #5aa5f5;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bluemix-main .link-chevron:hover {
+    color: #5095df;
+}
+.hero, body.bluemix-v18 .hero {
+    font-family: "HelveticaNeue-Light","HelvLightIBM",Arial,sans-serif !important;
+}
+section.hero h1, section.hero h3, body.bluemix-v18 section.hero h1, body.bluemix-v18 section.hero h3 {
+    display: block;
+    float: none;
+    font-family: "HelveticaNeue-Light","HelvLightIBM",Arial,sans-serif !important;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 45px;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+    text-align: center;
+}
+section.hero h3, body.bluemix-v18 section.hero h3 {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding-bottom: 15px;
+}
+section.hero .row.cta-cnt, body.bluemix-v18 section.hero .row.cta-cnt {
+    text-align: center;
+}
+section.hero a.cta, body.bluemix-v18 section.hero a.cta {
+    background-color: #41d0bd;
+    color: #000;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 45px;
+    text-transform: uppercase;
+}
+.bluemix-main a.cta-link, body.bluemix-v18 a.cta-link {
+    color: #4178be;
+    font-size: 16px;
+    line-height: normal;
+    text-decoration: none;
+}
+.bluemix-main a.cta-link.pdf, body.bluemix-v18 a.cta-link.pdf {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/PDF_icon.png") no-repeat scroll 0 4px / 15px 15px;
+    padding-left: 22px;
+}
+.bluemix-main a.cta-link.video, body.bluemix-v18 a.cta-link.video {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/link-play-icon.png") no-repeat scroll 0 4px / 15px 15px;
+    padding-left: 22px;
+}
+.bluemix-main .hero, body.bluemix-v18 .hero {
+    background-size: cover;
+    padding: 86px 0 29px;
+}
+.bluemix-main.v18 .hero, body.bluemix-v18 .v18 .hero {
+    display: inline-block;
+    min-height: 334px;
+    padding: 86px 0 0;
+    width: 100%;
+}
+section.hero h1, body.bluemix-v18 section.hero h1 {
+    color: #fff;
+    padding-bottom: 15px;
+}
+section.hero > div, body.bluemix-v18 section.hero > div {
+    text-align: center;
+}
+.bluemix-main .hero h3, body.bluemix-v18 .hero h3 {
+    color: #fff;
+}
+.bluemix-main section.hero a.cta.green-v2, body.bluemix-v18 section.hero a.cta.green-v2 {
+    color: #000;
+    font-weight: 600;
+}
+.bluemix-main section.hero a.cta, body.bluemix-v18 section.hero a.cta {
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.bluemix-main .hero .quote, body.bluemix-v18 .hero .quote {
+    border-top: 1px solid #426073;
+    color: #9bc7e7;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+.bluemix-main .hero .quote p, body.bluemix-v18 .hero .quote p {
+    color: #9bc7e7;
+    display: inline-block;
+    margin-bottom: 85px;
+    margin-top: 40px;
+    max-width: 810px;
+    padding: 0;
+    width: 100%;
+}
+.bluemix-main .hero .quote p span, body.bluemix-v18 .hero .quote p span {
+    display: block;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.hero-caption, body.bluemix-v18 .hero-caption {
+    border-top: 1px solid #426073;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: center;
+    margin-top: 6.5em;
+    padding-top: 1.86em;
+    width: 100%;
+}
+.hero-caption img, body.bluemix-v18 .hero-caption img {
+    width: 100%;
+}
+.hero-caption h3, body.bluemix-v18 .hero-caption h3 {
+    text-align: left !important;
+}
+.hero-caption > *:nth-child(1), body.bluemix-v18 .hero-caption > *:nth-child(1) {
+    margin-right: 24px;
+    max-width: 15%;
+    min-width: 180px;
+}
+.hero-caption > *:nth-child(2) {
+    min-width: 320px;
+}
+.hero-caption p {
+    color: #fff;
+    font-size: 1.71em;
+    line-height: 1.28em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.ui-hero-video-caption {
+    border-top: 1px solid #426073;
+    clear: both;
+    float: left;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    width: 100%;
+}
+.ui-hero-video-caption-cnt {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 845px;
+    width: 100%;
+}
+.ui-hero-video-button, .ui-hero-video-button img, .ui-hero-video-button a {
+    float: left;
+}
+.ui-hero-video-button {
+    width: 14.33%;
+}
+.ui-hero-video-button img, .ui-hero-video-button a {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.ui-hero-video-button {
+    margin-right: 2.56%;
+    max-width: 180px;
+    width: 25%;
+}
+.ui-hero-video-caption div.global-video-overlay.inline {
+    padding: 0;
+}
+.ui-hero-caption {
+    float: left;
+    max-width: 992px;
+    width: 74%;
+}
+.bluemix-main .hero .ui-hero-caption h3 {
+    font-size: 1.15em;
+    margin-bottom: 0.45em;
+    margin-top: 0.41em;
+    padding: 0;
+    text-align: left;
+}
+.ui-hero-caption p {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 200;
+    padding-bottom: 30px;
+    text-align: left;
+}
+p.ui-hero-caption-text {
+    color: #fff;
+    font-size: 1.71em;
+    line-height: 1.28em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+span.ui-hero-caption-author {
+    color: #94a3ab;
+    float: left;
+    font-size: 0.83em;
+    padding-top: 5px;
+    width: 100%;
+}
+.ui-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.ui-flex > div, .ui-flex > a {
+    min-width: 320px;
+}
+.ui-flex.float-left {
+    justify-content: flex-start;
+}
+img.fpo {
+    width: 100% !important;
+}
+p span.fpo {
+    background-color: #ff9;
+}
+h3.fpo {
+    font-size: 20px !important;
+    line-height: normal;
+}
+section.fpo strong {
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+}
+section.fpo:nth-child(2n+1) {
+    background-color: #ececec;
+}
+section.fpo.hero {
+    background-color: #162834 !important;
+}
+section.grid > div > .row {
+}
+section.grid > div > .row [class*="ibm-col-"] {
+    background-color: #c9e3fd;
+    height: 120px;
+}
+section.grid > div > .row [class*="ibm-col-"] span {
+    background-color: #7bbbfb;
+    height: 100px;
+    width: 100%;
+}
+section.grid > div > .row [class*="ibm-col-"] span h3 {
+    color: #fff;
+    margin: 20px;
+}
+section.Hs H1 {
+    border-top: 1px solid #333;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-top: 16px;
+    width: 100%;
+}
+section.Hs H1 span {
+    color: #ccc;
+    float: right;
+}
+a.video-overlay.inline, a.video-overlay.ui-hover {
+    display: inline-block;
+    position: relative;
+}
+a.video-overlay.ui-hover span {
+    bottom: 0;
+    display: block;
+    height: auto !important;
+    left: 50%;
+    margin-left: -10%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    width: 20%;
+    z-index: 5;
+}
+a.video-overlay.ui-hover span::after {
+    background-image: url("/cloud-computing/bluemix/api/global/imgs/video-play-icon.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto !important;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: auto !important;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform-origin: center center 0;
+    transition: transform 300ms ease-in-out 0s;
+    width: 100%;
+    z-index: 5;
+}
+a.video-overlay.ui-hover:hover span::after {
+    transform: scale(1.1);
+}
+a.video-overlay.ui-hover span::before {
+    background-image: url("/cloud-computing/bluemix/api/global/imgs/video-play-icon-hover-bg.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto !important;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: auto !important;
+    left: 0;
+    margin-left: 0;
+    opacity: 0.1;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform-origin: center center 0;
+    transition: transform 300ms ease-in-out 0s;
+    width: 100%;
+    z-index: 4;
+}
+a.video-overlay.ui-hover:hover span::before {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+div.global-video-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 350ms ease-out 0s;
+    width: 100%;
+    z-index: 2000;
+}
+div.global-video-inline-overlay {
+    background-color: transparent;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+div.global-video-inline-overlay > div {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+div.global-video-overlay > div {
+    background-color: #000;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+div.global-video-overlay.active {
+    opacity: 1;
+}
+div.global-video-overlay.active .global-video-container {
+    animation-duration: 2s;
+    opacity: 1;
+    transition-delay: 400ms;
+}
+div.global-video-overlay .global-video-container, div.global-video-inline-overlay .global-video-container {
+    display: inline-block;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 350ms ease-out 0s;
+    width: 100%;
+    z-index: 2001;
+}
+div.global-video-overlay .global-video-container.active div.global-video-inline-overlay .global-video-container.active {
+    opacity: 1;
+}
+div.global-video-overlay a.global-video-close-btn {
+    background: rgba(0, 0, 0, 0) url("/results/images/global-video-close-btn.svg") no-repeat scroll center center;
+    display: inline-block;
+    height: 64px;
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: opacity 350ms ease-out 0s;
+    width: 64px;
+    z-index: 2010;
+}
+div.global-video-overlay a.global-video-close-btn.active {
+    opacity: 1;
+}
+.global-tool-tip {
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 13px;
+    line-height: normal;
+    opacity: 0;
+    padding: 20px 25px;
+    position: absolute;
+    transition: opacity 300ms ease-in-out 0s;
+    width: 290px;
+    z-index: 1000;
+}
+.global-tool-tip.active {
+    opacity: 1;
+}
+.global-tool-tip-arrow {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/engagement-gaming/imgs/tool-tip-arrow.svg") no-repeat scroll 0 0 / 100% auto;
+    height: 11px;
+    position: absolute;
+    top: -10px;
+    width: 16px;
+    z-index: 1001;
+}
+section.promo-footer {
+    background-color: #2d3f4a;
+    padding: 50px 0 32px;
+}
+section.promo-footer h2 {
+    color: #fff;
+    font-size: 24px;
+}
+section.promo-footer .row a {
+    clear: none;
+    display: inline-block;
+    float: none;
+    height: 36px;
+    margin-top: 20px;
+    width: 36px;
+}
+section.promo-footer .row a.facebook {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/promo-footer-facebook.png") no-repeat scroll center center / 28px 28px;
+}
+section.promo-footer .row a.twitter {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/promo-footer-twitter.png") no-repeat scroll center center / 28px 28px;
+}
+section.promo-footer .row a.linkedin {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/promo-footer-linkedin.png") no-repeat scroll center center / 28px 28px;
+}
+section.promo-footer [class*="ibm-col-"] {
+    text-align: center;
+}
+section.promo-footer [class*="ibm-col-"] h2 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+section.promo-footer [class*="ibm-col-"] h2.last {
+    margin-bottom: 18px;
+}
+section.promo-footer [class*="ibm-col-"] a.mail, section.promo-footer [class*="ibm-col-"] p {
+    color: #8f9ea6;
+    font-size: 16px;
+    text-decoration: none;
+}
+section.promo-footer [class*="ibm-col-"] a.cta {
+    margin-bottom: 14px;
+}
+section.promo-footer [class*="ibm-col-"] a.cta-link {
+    clear: left;
+    color: #41d0bd;
+    display: block;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.0666em;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+section.promo-footer [class*="ibm-col-"] a.cta-link:hover {
+    color: #01a492;
+}
+section.promo-footer [class*="ibm-col-"] a.cta-link span {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/promo-footer-chev.png") no-repeat scroll 0 0 / 5px auto;
+    display: inline-block;
+    height: 10px;
+    margin-left: 5px;
+    width: 6px;
+}
+.bluemix-main section.ui-expand, .swift-main section.ui-expand {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.bluemix-main section.ui-expand.active {
+}
+.bluemix-main section.ui-expand > div, .swift-main section.ui-expand > div {
+    margin: 60px auto 50px;
+    position: relative;
+}
+.bluemix-main section.ui-expand a.section-close-btn, .swift-main section.ui-expand a.section-close-btn {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/garage/imgs/form-close-btn.png") no-repeat scroll center center / 48px 48px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+.ui-tabs-module {
+    position: relative;
+}
+.ui-tabs-module .nav {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.ui-tabs-module .nav select {
+    display: none;
+    height: 44px;
+    left: 0;
+    line-height: 44px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.ui-tabs-module .nav > div {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/mobile-select-menu-arrow.svg") no-repeat scroll 97% center / 20px auto;
+    border-radius: 4px;
+    color: #030;
+    display: none;
+    float: left;
+    font-family: "Helvetica Neue Roman";
+    font-size: 18px;
+    height: 100%;
+    line-height: 44px;
+    padding: 0 7px;
+    width: 100%;
+    z-index: 1;
+}
+.ui-tabs-module .nav > a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #5cabfa #5cabfa #5cabfa transparent;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    clear: none;
+    color: #5cabfa;
+    display: block;
+    float: left;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    letter-spacing: 0.0222em;
+    line-height: 60px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+    width: 25%;
+}
+.ui-tabs-module .nav > a:first-child {
+    border-left: 1px solid #5cabfa;
+}
+.ui-tabs-module .nav a.active, .ui-tabs-module .nav a:hover {
+    background: #7bbbfb none repeat scroll 0 0;
+    color: #fff;
+}
+.ui-tabs-module .slides {
+    min-height: 490px;
+    padding-top: 50px;
+}
+.ui-tabs-module .slides > div {
+    display: none;
+    text-align: left;
+    width: 100%;
+}
+.ui-tabs-module .slides > div.active {
+    display: inline-block;
+}
+#next-tab-button {
+    -moz-user-select: none;
+    background: #78abec url("/cloud-computing/bluemix/dedicated/imgs/tabbed-carousel-arrow.svg") no-repeat scroll center center;
+    cursor: pointer;
+    display: none;
+    height: 150px;
+    left: calc(100% - 80px);
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    top: 213px;
+    width: 80px;
+    z-index: 10;
+}
+.ui-tabs-module .slides .ibm-col-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ui-tabs-module .slides .ibm-col-2:first-child {
+    padding-right: 6%;
+}
+.ui-tabs-right-arrow.ui-tabs-module .slides > div {
+    width: calc(100% - 80px);
+}
+.ui-tabs-right-arrow.ui-tabs-module .slides .ibm-col-2 {
+    padding-left: 0;
+    padding-right: 3%;
+}
+.ui-tabs-right-arrow.ui-tabs-module .slides .ibm-col-2:first-child {
+    padding-right: 6%;
+}
+.ui-tabs-right-arrow #next-tab-button {
+    display: block;
+}
+@media only screen and (min-width: 0px) and (max-width: 940px) {
+.ui-tabs-module .nav > a {
+    border-top: medium none;
+    width: 50%;
+}
+.ui-tabs-module .nav > a:nth-child(2), .ui-tabs-module .nav > a:first-child {
+    border-top: 1px solid #5cabfa;
+}
+.ui-tabs-module .nav > a:nth-child(3) {
+    border-left: 1px solid #5cabfa;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 920px) {
+.ui-hero-video-caption-cnt {
+    max-width: 665px;
+}
+.ui-hero-caption {
+    max-width: 460px;
+    width: 68%;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+section.hero h1 {
+    font-size: 40px;
+    line-height: normal;
+}
+.bluemix-main section {
+    clear: left;
+    display: block;
+    float: left;
+    padding: 30px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.bluemix-main section h2 {
+    font-size: 2em;
+    line-height: normal;
+}
+.bluemix-main section h3 {
+    font-size: 1.5em;
+    line-height: normal;
+}
+.bluemix-main section > div {
+    padding: 0 10px;
+}
+.bluemix-main section > div > h2 {
+    padding-bottom: 30px;
+}
+.ui-tabs-module .nav select, .ui-tabs-module .nav > div {
+    display: none;
+}
+.ui-tabs-module.ui-m-dropdown .nav a {
+    display: none;
+}
+.ui-tabs-module.ui-m-dropdown .nav select, .ui-tabs-module.ui-m-dropdown .nav > div {
+    display: inline-block;
+}
+.ui-tabs-module .nav > a {
+    display: block;
+    width: 50%;
+}
+.bluemix-main h2.title {
+    font-size: 35px;
+    letter-spacing: 0.1em;
+}
+.bluemix-main .hero {
+    background-size: cover;
+    padding: 0 0 29px;
+}
+.bluemix-main section.hero h1 {
+    margin-top: 40px;
+}
+.bluemix-main section.hero h3 {
+    font-size: 1.2em;
+}
+.bluemix-main section.hero a.cta {
+    margin-bottom: 40px;
+    margin-top: 32px;
+    padding: 0 45px;
+}
+.ui-hero-video-caption {
+    margin-top: 0;
+}
+.ui-hero-video-caption {
+    margin-top: 0;
+}
+.bluemix-main .hero p.ui-hero-caption-text {
+    line-height: normal;
+}
+.ui-hexagon-cnt h3, .ui-hexagon-cnt h4, .ui-boilerplate-cnt h3, .ui-boilerplate-cnt h4, .ui-foundry-cnt h3, .ui-foundry-cnt h4 {
+    font-size: inherit !important;
+}
+section.web-app-services .ui-hexagon-cnt {
+    min-width: 145px !important;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+.ui-tabs-module .nav > a {
+    width: 100%;
+}
+.ui-tabs-module .nav > a, .ui-tabs-module .nav > a:nth-child(2) {
+    border-left: 1px solid #5cabfa;
+    border-top: medium none;
+}
+.ui-tabs-module .nav > a:first-child {
+    border-top: 1px solid #5cabfa;
+}
+.ui-hero-caption {
+    width: 100%;
+}
+.ui-hero-video-button {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100%;
+    width: 100%;
+}
+.bluemix-main .hero p.ui-hero-caption-text {
+    font-size: 1.5em;
+}
+}
+@media only screen and (max-width: 640px) {
+.hero-caption {
+    margin-top: 1.5em;
+}
+.hero-caption > *:nth-child(1), .hero-caption > *:nth-child(2) {
+    margin-right: 0;
+    max-width: 320px !important;
+}
+.hero-caption > *:nth-child(2) {
+    margin-top: 15px;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 414px) {
+.bluemix-main [class*="ibm-col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+.bluemix-main section > div {
+    max-width: 375px;
+}
+.bluemix-main section h2 {
+    padding: 0;
+}
+.bluemix-main [class*="ibm-col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+.bluemix-main section {
+}
+.bluemix-main [class*="ibm-col-"] {
+    width: 50%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+.bluemix-main .ibm-col-6 {
+    width: 33.33%;
+}
+}
+@media (max-width: 1100px) {
+.bluemix-main .ibm-col-2 .ibm-col-3, .bluemix-main .ibm-col-3 .ibm-col-3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+}
+}
+@media (max-width: 1050px) {
+.bluemix-main .ibm-col-2 .ibm-col-2, .bluemix-main .ibm-col-3 .ibm-col-2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+}
+}
+@media (min-width: 767px) {
+div.footer-poweredby {
+    display: inline-block;
+    float: right;
+    width: auto;
+}
+ul.footer-links {
+    display: inline-block;
+    width: auto;
+}
+}
+.bluemix-global-header {
+    background-color: #26343f;
+    box-shadow: 0 0 5pt 1pt rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    line-height: 1.75em;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.bluemix-global-header .bluemix-branding {
+    margin: 0 0.75em 0 1.65em;
+}
+.bluemix-global-header .bluemix-nav-list .is-selected {
+    border-bottom: 4px solid #00b299;
+}
+.bluemix-global-header .bluemix-nav-list li {
+    line-height: 50px;
+    list-style: outside none none;
+    margin-left: 2px;
+    margin-right: 2px;
+    max-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bluemix-global-header span {
+    line-height: 50px;
+}
+.bluemix-global-header .bluemix-signup-login, .bluemix-global-header .bluemix-nav-authorized {
+    float: right;
+    height: 100%;
+}
+.bluemix-global-header ul, .bluemix-global-header .bluemix-nav-unauthorized .bluemix-nav-list {
+    display: flex;
+    margin: 0;
+    max-height: 50px;
+    padding: 0;
+}
+.bluemix-global-header .bluemix-signup-login ul {
+    margin: 0;
+}
+.bluemix-global-header .bluemix-masthead {
+    align-items: center;
+    display: flex;
+    float: left;
+    padding-left: 10px;
+}
+.bluemix-global-header .bluemix-nav-menu-button:hover, .bluemix-global-header .bluemix-nav-list-link:hover {
+    color: #ffffff;
+}
+.bluemix-global-header .bluemix-nav-menu-button {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -7262px;
+    cursor: pointer;
+    display: none;
+    height: 13px;
+    vertical-align: middle;
+    width: 12px;
+}
+.bluemix-global-header a.bluemix-branding {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+.bluemix-global-header .bluemix-logo {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -6826px;
+    height: 32px;
+    vertical-align: bottom;
+    width: 32px;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-signup-link, .bluemix-global-header .bluemix-nav-list .bluemix-login-link {
+    padding: 5px 12px;
+}
+.bluemix-global-header .bluemix-nav-list-link {
+    text-transform: uppercase;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-signup-link {
+    color: #00b299;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-signup-link {
+    border: 1px solid #00b299;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-signup-link:hover {
+    background-color: #00b299;
+    color: #26343f;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-login-link {
+    color: #b3b3b3;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-login-link {
+    border: 1px solid #b3b3b3;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-login-link:hover {
+    background-color: #b3b3b3;
+    color: #26343f;
+}
+.bluemix-global-header .bluemix-logo {
+    display: inline-block;
+}
+.bluemix-global-header .bluemix-nav-list .bluemix-signup-link, .bluemix-global-header .bluemix-nav-list .bluemix-login-link {
+    border-radius: 0;
+}
+body.bluemixHome .bluemix-global-header * {
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif !important;
+}
+body.bluemixHome .bluemix-global-header * {
+    -moz-osx-font-smoothing: auto;
+}
+.bluemix-global-header .bluemix-product-title {
+    font-family: "HelveticaNeue-Bold","HelvBoldIBM",Arial,sans-serif !important;
+    font-size: 15px;
+    font-weight: normal;
+}
+.bluemixSolutions main.main {
+}
+.bluemix-global-header .bluemix-logo {
+    background-image: url("/cloud-computing/bluemix/api/global/imgs/bluemix-ui-logo.svg");
+    background-position: center center;
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+}
+.bluemix-global-header .bluemix-nav-list li {
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bluemix-global-header .bluemix-nav-list li.bluemix-signup, .bluemix-global-header .bluemix-nav-list li.bluemix-login {
+    margin-left: 4px;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bluemix-global-header .bluemix-nav-list li.bluemix-login {
+    margin: 0 12px 0 0;
+}
+.bluemix-global-header .bluemix-nav-list a, .bluemix-global-header .bluemix-nav-menu-button, .bluemix-global-header .bluemix-nav-list-link {
+    color: #b3b3b3;
+    font-size: 13px;
+    letter-spacing: 0.063em;
+    line-height: 32px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.bluemix-global-header a.m-overview {
+    display: none;
+    margin-bottom: 12px !important;
+}
+.bluemix-global-header .bluemix-nav-list a, .bluemix-global-header .bluemix-nav-menu-button, .bluemix-global-header .bluemix-nav-list-link, .bluemix-global-header a {
+    text-decoration: none;
+    transition-property: color;
+}
+.bluemix-global-header .bluemix-nav-list a, .bluemix-global-header .bluemix-nav-menu-button, .bluemix-global-header .bluemix-nav-list-link, .bluemix-global-header a, .bluemix-global-header {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+.bluemix-nav-unauthorized {
+    float: right;
+    height: 100%;
+    left: -300px;
+    overflow: hidden;
+    position: inherit;
+    top: 3em;
+    transition-duration: 0.2s;
+    transition-property: left;
+    transition-timing-function: ease-out;
+    width: 300px;
+}
+.bluemix-global-header .bluemix-nav-unauthorized {
+    margin: 0 0 0 auto;
+    position: static;
+    width: auto;
+}
+.bluemix-global-header .bluemix-nav-list a:hover {
+    color: #41d6c3;
+}
+.bluemix-global-header .bluemix-nav-list a.selected {
+    color: #41d6c3;
+}
+.bluemix-global-header .bluemix-nav-list * a {
+}
+nav.subnav-cnt {
+    background-color: rgba(23, 43, 55, 1);
+    color: #94a3ab;
+    left: 0;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    transition: max-height 290ms ease-out 0s;
+    width: 100%;
+    z-index: 99;
+}
+li.li-has-subnav:hover nav.subnav-cnt {
+    max-height: 250px;
+}
+li.li-has-subnav:hover {
+    background-color: rgba(23, 43, 55, 1);
+}
+nav.subnav-cnt > div {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+}
+nav.subnav-cnt .col-5-3, nav.subnav-cnt .col-5-1, nav.subnav-cnt .ibm-col-3, nav.subnav-cnt .col-6-3, nav.subnav-cnt .col-6-1 {
+    clear: none;
+    display: block;
+    float: left;
+}
+nav.subnav-cnt .col-5-3 {
+    padding: 0 2%;
+    width: 60%;
+}
+nav.subnav-cnt .col-5-1 {
+    border-left: 1px solid #1a3342;
+    padding: 0 2%;
+    width: 20%;
+}
+nav.subnav-cnt .col-6-3 {
+    border-left: 1px solid #1a3342;
+    padding: 0 2%;
+    width: 49.9%;
+}
+nav.subnav-cnt .col-6-1 {
+    border-left: 1px solid #1a3342;
+    padding: 0 2%;
+    width: 16.6%;
+}
+nav.subnav-cnt > div > div:first-child {
+    border-left: medium none;
+}
+nav.subnav-cnt .ibm-col-3 {
+    width: 33.3%;
+}
+nav.subnav-cnt h3 {
+    color: #3c4b56;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+nav.subnav-cnt a {
+    clear: left;
+    color: rgb(148, 163, 171);
+    float: left;
+    text-decoration: none;
+    width: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 1073px) {
+.bluemix-global-header .bluemix-logo {
+    display: none;
+}
+.bluemix-global-header .bluemix-nav-menu-button {
+    display: inline-block;
+}
+.bluemix-global-header a.m-overview {
+    display: inline-block;
+}
+.bluemix-global-header .bluemix-nav-unauthorized .bluemix-nav-list {
+    padding-left: 0;
+    padding-top: 20px;
+}
+.bluemix-global-header .bluemix-nav-list .is-selected {
+    border-bottom: medium none;
+    border-left: 4px solid #00b299;
+}
+.bluemix-global-header .bluemix-nav-list li {
+    line-height: normal;
+    padding-right: 0;
+}
+.bluemix-global-header .bluemix-nav-list li > span a {
+}
+nav.subnav-cnt h3 {
+    padding-bottom: 8px;
+    padding-top: 12px;
+}
+li.li-has-subnav {
+    padding-left: 0 !important;
+}
+.bluemix-global-header .bluemix-nav-unauthorized a {
+    display: inline-block;
+    width: 100%;
+}
+li.li-has-subnav:hover {
+    background-color: inherit;
+}
+li.li-has-subnav > span {
+    display: inline-block;
+    padding-left: 34px;
+    position: relative;
+    width: 100%;
+}
+li.li-has-subnav > span a span {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/api/global/imgs/subnav-icon.svg") no-repeat scroll right 0 / 18px 18px;
+    height: 18px;
+    position: absolute;
+    right: 18px;
+    top: 11px;
+    transition: -moz-transform 320ms ease 0s;
+    width: 18px;
+}
+li.li-has-subnav.active > span a span {
+    transform: rotate(45deg);
+}
+nav.subnav-cnt {
+    background-color: rgba(23, 43, 55, 1);
+    display: none;
+    padding-left: 34px;
+    padding-top: 6px;
+}
+nav.subnav-cnt .row.nav-mobile {
+    padding-left: 0;
+}
+nav.subnav-cnt .col-5-3, nav.subnav-cnt .col-5-1, nav.subnav-cnt .col-6-3, nav.subnav-cnt .col-6-1 {
+    border-left: medium none;
+    padding: 0;
+    width: 100%;
+}
+nav.subnav-cnt * {
+    width: 100%;
+}
+nav.subnav-cnt .col-5-3 *, nav.subnav-cnt .col-5-1 *, nav.subnav-cnt .col-6-3 *, nav.subnav-cnt .col-6-1 * {
+    width: 100%;
+}
+nav.subnav-cnt > div {
+    display: inline-block;
+    padding: 0;
+}
+.bluemix-global-header .bluemix-nav-menu-button {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -7285px;
+    height: 13px;
+    outline: medium none;
+    width: 12px;
+}
+.bluemix-global-header .bluemix-nav-menu-button:hover {
+    background-position: -5px -7308px;
+}
+.mobile-nav-open .bluemix-global-header .bluemix-nav-unauthorized {
+    left: 0;
+}
+.bluemix-global-header .bluemix-nav-unauthorized {
+    background-color: #26343f;
+    height: 100%;
+    left: -300px;
+    opacity: 1;
+    overflow: auto;
+    padding-bottom: 72px;
+    position: fixed;
+    top: 50px;
+    width: 300px;
+}
+.bluemix-global-header .bluemix-nav-unauthorized .bluemix-nav-list {
+    background-color: transparent;
+    display: inline-block;
+    height: initial;
+    margin-top: 0;
+    width: 100%;
+}
+.mobile-nav-open .bluemix-global-header .bluemix-nav-list span {
+    line-height: 28px;
+}
+.mobile-nav-open .bluemix-global-header .bluemix-nav-list li.bluemix-signup span, .mobile-nav-open .bluemix-global-header .bluemix-nav-list li.bluemix-login span {
+    line-height: 50px;
+}
+.bluemix-global-header .bluemix-nav-unauthorized .bluemix-nav-list li {
+    padding-left: 34px;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 1073px) {
+.mobile-nav-open .bluemix-global-header .bluemix-nav-unauthorized {
+    left: 0;
+}
+}
+em {
+    font: inherit;
+}
+.verticalSeparator {
+    padding: 0 5px;
+}
+.hide {
+    display: none;
+}
+.super-script {
+    font-size: 18px;
+    vertical-align: super;
+}
+sup {
+    font-size: 0.666em;
+    line-height: 0;
+    vertical-align: super;
+}
+.corner-badge {
+    display: none;
+}
+.hexagon-wrapper {
+    background-color: white;
+    display: inline-block;
+    margin: 0 20px 5px;
+    position: relative;
+    text-align: center;
+}
+.hexagon-wrapper .hexagon {
+    box-sizing: border-box;
+    display: inline-block;
+}
+.hexagon-wrapper .hexagon::before {
+    background-color: inherit;
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    transform: rotate(-45deg) matrix(1, -0.267949, -0.267949, 1, 0, 0);
+    z-index: 1;
+}
+.hexagon-wrapper .hexagon::after {
+    background-color: inherit;
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    transform: rotate(-45deg) matrix(1, -0.267949, -0.267949, 1, 0, 0);
+    z-index: 1;
+}
+.hexagon-wrapper .hexagon-img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    z-index: 3;
+}
+.tooltip.widget span.tooltip-content {
+    background: #3b4b54 none repeat scroll 0 0;
+    border: 1px solid #aeb5b8;
+    color: #ffffff;
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    left: 0;
+    line-height: 20px;
+    padding: 12px 15px;
+    position: absolute;
+    top: 48px;
+    white-space: nowrap;
+    z-index: 999;
+}
+.main .tooltip.widget span.tooltip-content {
+    font-size: 13px;
+    line-height: normal;
+    opacity: 0;
+    padding: 15px;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.main .tooltip.widget.tooltip-arrow-n span.tooltip-content {
+    top: 100%;
+}
+.tooltip-arrow-n .tooltip-content::after {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -5330px;
+    background-repeat: no-repeat;
+    top: -6px;
+}
+.tooltip-arrow-s .tooltip-content::after {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -5346px;
+    background-repeat: no-repeat;
+    bottom: -10px;
+}
+.tooltip-arrow-n .tooltip-content::after, .tooltip-arrow-s .tooltip-content::after {
+    content: "";
+    height: 10px;
+    position: absolute;
+    white-space: nowrap;
+    width: 12px;
+    z-index: 999;
+}
+.tooltip-left10 .tooltip-content::after {
+    left: calc(10% - 6px);
+}
+.tooltip-left20 .tooltip-content::after {
+    left: calc(20% - 6px);
+}
+.tooltip-left30 .tooltip-content::after {
+    left: calc(30% - 6px);
+}
+.tooltip-left40 .tooltip-content::after {
+    left: calc(40% - 6px);
+}
+.tooltip-left50 .tooltip-content::after {
+    left: calc(50% - 6px);
+}
+.tooltip-left60 .tooltip-content::after {
+    left: calc(60% - 6px);
+}
+.tooltip-left70 .tooltip-content::after {
+    left: calc(70% - 6px);
+}
+.tooltip-left80 .tooltip-content::after {
+    left: calc(80% - 6px);
+}
+.tooltip-left90 .tooltip-content::after {
+    left: calc(90% - 6px);
+}
+.i-arrow-single-grey {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -6681px;
+    height: 8px;
+    width: 6px;
+}
+.i-arrow-single-grey-down {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -6665px;
+    height: 6px;
+    width: 8px;
+}
+.i-info-blue-white-small {
+    background-image: url("/cloud-computing/bluemix/api/global/imgs/i-info-icon.png?@revision@");
+    height: 24px;
+    width: 24px;
+}
+.ios8-badge .corner-badge {
+    background-image: url("/cloud-computing/bluemix/api/global/imgs/i-ios8-badge.png?@revision@");
+    height: 50px;
+    width: 108px;
+}
+.settings-menu {
+    background-color: #ffffff;
+    box-shadow: 0 0 10pt -2pt rgba(0, 0, 0, 0.5);
+    color: #1b252d;
+    position: absolute;
+    right: 119px;
+    top: 52px;
+    width: 250px;
+    z-index: 150;
+}
+.settings-menu > div {
+    height: 100%;
+    overflow: auto;
+}
+.settings-menu ul {
+    border-bottom: 1px solid #dcd9df;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+.settings-menu ul:last-child {
+    border-bottom: 0 solid #dcd9df;
+}
+.settings-menu ul li {
+    border-left: 5px solid #ffffff;
+    cursor: pointer;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    overflow: hidden;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-top: 7px;
+    text-overflow: ellipsis;
+}
+.dialogModal.dialogOpen {
+    height: auto;
+    opacity: 1;
+    pointer-events: auto;
+}
+.dialogModal {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    height: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity 400ms ease-in 0s;
+    z-index: 9999;
+}
+.dialogModal .dialogContainer {
+    align-items: center;
+    background-color: #ffffff !important;
+    color: #3b4b54 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 15% auto;
+    max-width: 500px;
+}
+.dialogModal .dialogContainer.hide {
+    display: none;
+}
+.dialogModal .dialogContainer .dialogTitleBar {
+    border-bottom: 1px solid rgba(122, 137, 145, 0.3);
+    margin: 10px 0;
+    padding: 10px 30px !important;
+    text-align: left;
+    width: 100%;
+}
+.dialogModal .dialogContainer .dialogTitle {
+    color: #94a3ab;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0;
+    max-width: 420px;
+    text-transform: inherit;
+    vertical-align: middle;
+    width: calc(100% - 16px);
+    word-break: break-all;
+}
+.dialogModal .dialogContainer .dialogMessageArea {
+    background-color: #ffffff !important;
+    color: #3b4b54 !important;
+    margin: 0;
+    padding: 10px;
+}
+.dialogModal .dialogContainer .dialogCloseIcon {
+    color: #aaa;
+    cursor: pointer;
+    display: inline !important;
+    float: right;
+    font-size: 27px;
+    position: relative;
+    right: -20px;
+    top: -18px;
+}
+.dialogModal .dialogContainer .i-warning-orange-small {
+    background-image: url("/cloud-computing/bluemix/api/v1/imgs/sprite.png?@revision@");
+    background-position: -5px -7855px;
+    height: 24px;
+    vertical-align: middle;
+    width: 24px;
+}
+.dialogModal .dialogContainer .dialogMessageAreaTextCell {
+    line-height: 22px;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+.dialogModal .dialogContainer .dialogMessageAreaText {
+    color: #94a3ab;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    width: 340px;
+    word-break: normal;
+    word-wrap: break-word;
+}
+.dialogModal .dialogContainer .dialogMessageContentAreaContentDiv {
+    color: #3b4b54;
+    font-size: 13px;
+    margin: 0;
+}
+.dialogModal .dialogContainer .dialogPaneContent {
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.dialogModal .dialogContainer .messageArea {
+    font-size: 15px;
+    line-height: normal;
+    padding: 10px 30px;
+    word-wrap: break-word;
+}
+.dialogModal .dialogContainer .dialogPaneActionBar {
+    border: medium none;
+    float: right;
+    line-height: normal;
+    margin: 15px 20px !important;
+    padding: 0;
+    text-align: right;
+}
+.dialogModal .dialogContainer .btn-primary {
+    background-color: #00b299;
+    color: #ffffff;
+}
+.no-touch .dialogModal .dialogContainer .btn-primary:hover {
+    background-color: #01cdb0;
+}
+.dialogModal .dialogContainer .btn-secondary {
+    background-color: #dfe6eb;
+    color: #3b4b54;
+}
+.no-touch .dialogModal .dialogContainer .btn-secondary:hover {
+    background-color: #e9eff2;
+}
+.dialogModal .dialogContainer .btn {
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 0.875em;
+    font-stretch: normal;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin: 0;
+    padding: 6px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+header.action-bar {
+    background-color: #26343f;
+    border-top: 1px solid rgba(122, 137, 145, 0.3);
+    box-shadow: 0 0 5pt 1pt rgba(0, 0, 0, 0.3);
+    color: #26343f;
+    display: inline-block;
+    height: 50px;
+    left: 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 75;
+}
+footer.footer {
+    background-color: #1b252d;
+    color: white;
+    font-size: 0.88889em;
+    position: relative;
+}
+@media (min-width: 767px) {
+footer.footer {
+    display: flex;
+    padding: 3em 4em;
+}
+}
+ul.footer-links {
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+    padding: 2em 0.5em 1em;
+    text-align: center;
+}
+@media (min-width: 767px) {
+ul.footer-links {
+    flex: 1 1 0;
+    padding: 0;
+    text-align: left;
+}
+}
+.footer-links .footer-link {
+    display: inline-block;
+}
+.footer-links .footer-link:not(:last-child)::after {
+    content: "/";
+}
+.footer-links .footer-link a {
+    color: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.footer-links .footer-link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+div.footer-poweredby {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1em 0.5em 2em;
+    text-align: center;
+}
+@media (min-width: 767px) {
+div.footer-poweredby {
+    padding: 0;
+}
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 420ms;
+}
+.isotope {
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    transition-property: transform, opacity;
+}
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    transition-duration: 0s;
+}
+.tile-cnt {
+    display: inline-block;
+    float: none;
+    min-width: 400px;
+    padding: 24px;
+    width: 33.3%;
+}
+.tile-cnt .number, .tile-cnt .name {
+    display: none;
+}
+.tile-cnt > div {
+    background-color: #ffffff;
+    display: inline-block;
+    height: 395px;
+    position: relative;
+    width: 100%;
+}
+.tile-cnt > div img.new-flag {
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 55px;
+    z-index: 3;
+}
+.tile-cnt table.tile-logo, .tile-cnt table.tile-logo td, .tile-cnt table.tile-logo tr {
+    border: medium none;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.tile-cnt table.tile-logo {
+    border-bottom: 1px solid #ccc;
+}
+.tile-cnt table.tile-logo img {
+    max-height: 100px;
+    width: auto !important;
+}
+.color-green {
+    background-color: #00b4a0;
+}
+.color-orange {
+    background-color: #f58426;
+}
+.color-black {
+    background-color: #000000;
+}
+.color-blue {
+    background-color: #1581c9;
+}
+.tile-cnt h3.tile-heading {
+    color: #ccc;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 20px 23px 15px;
+    text-align: left;
+}
+.tile-cnt h2.tile-heading {
+    color: #000;
+    font-size: 20px;
+    height: 122px;
+    line-height: normal;
+    overflow: hidden;
+    padding: 0 23px 20px;
+    text-align: left;
+}
+.tile-cnt .row.tile-cta-cnt {
+    border-top: 1px solid #ccc;
+}
+.tile-cnt a.tile-cta {
+    background-size: 8px auto;
+    color: #5596e6;
+    display: inline-block;
+    float: left;
+    font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif !important;
+    font-size: 14px;
+    line-height: 66px;
+    padding-left: 23px;
+    padding-right: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
+.tile-cnt ul.social-tools {
+    display: inline-block;
+    float: right;
+    margin: 0 auto;
+    padding-right: 23px;
+    padding-top: 11px;
+    width: auto;
+}
+.tile-cnt ul.social-tools li {
+    clear: none;
+    display: block;
+    float: left;
+    padding: 6px;
+}
+.tile-cnt ul.social-tools li a {
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+.tile-cnt ul.social-tools li a.social-facebook {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/case-study/imgs/facebook.svg") no-repeat scroll center center / 35px 35px;
+}
+.tile-cnt ul.social-tools li a.social-twitter {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/case-study/imgs/twitter.svg") no-repeat scroll center center / 35px 35px;
+}
+.tile-cnt ul.social-tools li a.social-linkedin {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/case-study/imgs/linkedin.svg") no-repeat scroll center center / 35px 35px;
+}
+.tile-cnt ul.social-tools li a.social-facebook:hover {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/case-study/imgs/facebook-hover.svg") no-repeat scroll center center / 35px 35px;
+}
+.tile-cnt ul.social-tools li a.social-twitter:hover {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/case-study/imgs/twitter-hover.svg") no-repeat scroll center center / 35px 35px;
+}
+.tile-cnt ul.social-tools li a.social-linkedin:hover {
+    background: rgba(0, 0, 0, 0) url("/cloud-computing/bluemix/case-study/imgs/linkedin-hover.svg") no-repeat scroll center center / 35px 35px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+.tile-cnt {
+    max-width: 418px;
+    min-width: inherit;
+    padding: 10px;
+    width: 100%;
+}
+.tile-cnt > div {
+    height: auto;
+}
+.tile-cnt h2 {
+    display: none;
+}
+.tile-cnta.tile-cta {
+    margin-top: 15px;
+}
+}
+#persistent-nav {
+    background-color: #293f4c;
+    box-shadow: 0 0 2px 0 rgba(50, 50, 50, 1);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 30px;
+    left: 0;
+    line-height: normal;
+    opacity: 0;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    top: -250px;
+    transition: top 420ms ease-out 0s, opacity 320ms ease-in 0s;
+    width: 100%;
+    z-index: 90;
+}
+#persistent-nav.active {
+    opacity: 1;
+    top: 50px;
+    z-index: 90;
+}
+#persistent-nav > div {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+#persistent-nav > div > div {
+    clear: none;
+    display: inline-block;
+    float: none;
+    font-size: 1.542rem;
+    width: auto;
+}
+#persistent-nav > div > div:first-child {
+    padding-right: 5%;
+}
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+#persistent-nav a {
+    color: #25343e;
+    padding: 0 15px;
+}
+#persistent-nav {
+    font-size: 24px;
+}
+#persistent-nav div:first-child {
+    padding-bottom: 12px;
+}
+}

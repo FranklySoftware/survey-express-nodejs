@@ -1,0 +1,59 @@
+@media only print{
+	
+	#advanced,
+	#beginner,
+	#container,
+	#contentView{
+		position:relative !important;
+		top:0 !important;
+		left:0 !important;
+		height:auto !important;}
+	#advanced,
+	#beginner,
+	#container,
+	#contentView *{
+		position:relative !important;
+		top:0 !important;
+		left:0 !important;
+		height:auto !important;
+	}
+	#header .steps,
+	.results-button-container,
+	#free_consultation_button,
+	.headers.content .first .image{
+		display:none;
+	}
+	#container #contentView .slide .title {
+    	padding-bottom: 0; 
+	}
+	#container #contentView > div {
+    	top: 20px;
+	}
+	#container #contentView .results-panel {
+    	padding-bottom: 0;
+	}
+	.headers.content .first .txt,
+	#container #contentView #results_next_steps > div, #container #contentView #results_recommendation > div {
+		width:100%;
+		max-width: 100%;
+	}
+	#container #contentView .results-panel .results-copy,
+	.results-copy > div#intro_text_0,
+	#container #contentView #results_recommendation .results-copy{
+		color: #000 !important;
+	}
+	.headers .first .txt h2 {
+		font-size: 24px !important;
+		white-space: normal !important;
+	}
+	#container #contentView .results-panel .results-copy,
+	#container #contentView #results_answers_analysis.results-panel,
+	#container #contentView #results_answers_analysis.results-panel .headers.content,
+	#container #contentView .results-panel {
+		padding: 20px 0;
+	}
+	#container #contentView .results-panel {
+		padding-bottom:0px;
+	}
+	
+}

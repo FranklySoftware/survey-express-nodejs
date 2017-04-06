@@ -1,0 +1,293 @@
+,en,ko,fr,es,de
+,,,,,
+Global,,,,,
+Masthead,Business Self-assessment Tool,코그너티브 비즈니스 자가진단 도구,Outil d'auto-évaluation,Herramienta de autoevaluación empresarial,Self-Assessment Tool
+,,,,,
+Breadcrumb,,,,,
+,About Your Business,귀사의 비즈니스,À propos de votre activité,Acerca de su empresa,Details zu Ihrem Unternehmen
+,Software Usage,소프트웨어 사용 여부,Utilisation de logiciels,Uso de software,Software-Nutzung
+,Cognitive Technology,코그너티브 기술,Technologie cognitive,Tecnología cognitiva,Kognitive Technologie
+,,,,,
+Navigation,,,,,
+,Next Question,다음 질문,Question suivante,Siguiente pregunta,Nächste Frage
+,Back,뒤로,Retour,Volver,Zurück
+,See Results,결과 보기,Afficher les résultats,Ver resultados,Ergebnisse ansehen
+,,,,,
+Levels,,,,,
+,Assess,평가,Évaluation,Evaluar,Beurteilen
+,Learn,학습,Apprentissage,Conocer,Lernen
+,Build,구축,Assemblage,Diseñar,Aufbauen
+,Roll Out,배포,Sortie,Lanzar,Ausbauen
+Footer,,,,,
+,ibm.com,ibm.com,ibm.com,ibm.com,Ibm.com
+,Privacy,개인정보보호,Confidentialité,Privacidad,Vertraulichkeit
+,Terms of use,이용 약관,Conditions d'utilisation,Términos de uso,Nutzungsbedingungen
+,Accessibility,접근성,Accessibilité,Accesibilidad,Zugang
+,© 2015 IBM,© 2015 IBM,© 2015 IBM,© 2015 IBM,© 2015 IBM
+,,,,,
+Introduction,,,,,
+Title,Where are you in your journey to cognitive business operations?,귀사는 얼마나 코그너티브 시대에 대비하고 있습니까?,Où en êtes-vous dans votre transition vers des opérations cognitives ?,¿En dónde se encuentra en su transición hacia las operaciones empresariales cognitivas?,Wie weit sind Sie auf Ihrer Reise zu Cognitive Business Operations?
+Abstract,Take this three minute assessment to find out where you are and what to do next to transform your business operations with cognitive technology.,"3분만 투자하여, 코그너티브 시대로 변화하기 위한 귀사의 준비 상황을 확인하고, 앞으로의 계획을 수립해 보십시오",Prenez ces trois minutes d'évaluation pour savoir où vous en êtes et connaître les actions à entreprendre pour transformer votre activité avec les technologies cognitives.,Responda esta evaluación de tres minutos para descubrir en dónde se encuentra y qué hacer para transformar sus operaciones empresariales con la tecnología cognitiva.,"Nehmen Sie sich 3 Minuten Zeit für dieses Assessment. Sehen Sie wo Sie auf Ihrem Weg stehen und was die nächsten Schritte sein können, um Ihre Geschäftsprozesse mit kognitiver Technologie zu ergänzen."
+Button,Start Now,시작하기,Démarrer,Comenzar ahora,Jetzt starten
+Shape Title,With cognitive business operations you can:,코그너티브 비즈니스 오퍼레이션은 귀사에 다음과 같은 역량을 제공합니다,Les opérations cognitives permettent de :,"Con las operaciones empresariales cognitivas, puede:",Mit kognitiver Technologie können Sie
+Bullet 1,Better self-adapt and innovate,시장 대응력 향상 및 혁신,S'adapter et d'innover au mieux ;,Innovar y adaptarse mejor,sich besser an Neuerungen anpassen und diese einfacher einführen
+Bullet 2,Discover insights from dark data,분석되지 않은 다크 데이터로부터 통찰력 확보,"Découvrir des perspectives à partir des ""dark data"";",Descubrir información a partir de datos secundarios,neue Erkenntnisse durch die Analyse von bisher unbekannten Daten bekommen
+Bullet 3,Empower your team with unparalleled knowledge,비교할 수 없는 전문지식으로 팀 역량 강화,Donner à son équipe des connaissances inégalées.,Fortalecer a su equipo con información excepcional,Ihr Team mit einmaligem Wissen ausstatten
+,,,,,
+Questions and Answers,,,,,
+Q1,Where are you located?,어느 지역에 계십니까?,Quelle est votre position géographique ?,¿En dónde se encuentra?,Wo sind Sie?
+Q1-A1,Africa,아프리카,Afrique,África,Afrika
+Q1-A2,Asia Pacific,아시아 태평양,Asie-Pacifique,Región Asia-Pacífico,Asien / Pazifik
+Q1-A3,China,중국,Chine,China,China
+Q1-A4,Europe,유럽,Europe,Europa,Europa
+Q1-A5,Japan,일본,Japon,Japón,Japan
+Q1-A6,Latin America,남아메리카,Amérique Latine,América Latina,Lateinamerika
+Q1-A7,Middle East,중동,Moyen-Orient,Oriente Medio,Mittlerer Osten
+Q1-A8,North America,북아메리카,Amérique du Nord,América del Norte,Nordamerika
+,,,,,
+Q2,What is your company's industry?,귀사는 어떤 산업군에 속해 있습니까?,Dans quel secteur œuvre votre entreprise ?,¿Cuál es la industria de su compañía?,Zu welchem Industriezweig gehört Ihr Unternehmen?
+Q2-A1,Automotive,자동차,Automobile,Automoción,Automotive
+Q2-A2,Communications,통신,Communications,Comunicaciones,Kommunikation
+Q2-A3,Consumer Products,일반 소비재,Distribution,Productos para el consumidor,Konsumgüter
+Q2-A4,Education,교육,Éducation,Educación,Bildung
+Q2-A5,Energy & Utilities,에너지 및 유틸리티,Énergie et environnement,Energía y servicios públicos,Energie & Betriebsstoffe
+Q2-A6,Financial Services,금융 서비스,Services financiers,Servicios financieros,Finanzdienstleistungen
+Q2-A7,Government,정부,Gouvernement,Gobierno,Regierung
+Q2-A8,Healthcare,의료,Santé,Atención médica,Gesundheitswesen
+Q2-A9,Insurance,보험,Assurance,Seguro,Versicherungen
+Q2-A10,Manufacturing,제조,Production industrielle,Fabricación,Produzierendes Gewerbe
+Q2-A11,Pharmaceuticals,의약,Produits pharmaceutiques,Farmacéutica,Pharmazeutik
+Q2-A12,Retail,소매,Commerce de détail,Venta al por menor,Einzelhandel
+Q2-A13,Travel and Transportation,여행,Transport et Tourisme,Viajes y transportes,Reisen und Transport
+Q2-A14,Other,기타,Autre,Otro,Andere
+,,,,,
+Q3,Which title most closely matches your current role?,어떤 역할을 담당하고 계십니까? (딱 맞는 역할이 없다면 가장 비슷한 역할을 선택하십시오),Quel poste décrirait le mieux votre rôle actuel ?,¿Qué puesto coincide mejor con su rol actual?,Welcher Titel kommt Ihrer derzeitigen Position am nächsten?
+Q3-A1,Chief Innovation Officer,CIO (최고혁신책임자),Directeur / Responsable de l'innovation,Director de innovación,Leiter Innovation
+Q3-A2,Chief Operation Officer,COO (최고운영책임자),Directeur / Responsable des opérations,Director de operaciones,Betriebsleiter
+Q3-A3,Chief Technology Officer,CTO(최고기술책임자),Directeur technique,Director de tecnología,Technischer Leiter
+Q3-A4,Other C-Level Executive,기타 경영진 및 임원,Autre cadre,Director ejecutivo de otro tipo,Andere Führungsposition
+Q3-A5,Business Analyst,비즈니스 분석가,Directeur Fonctionnel,Analista de negocios,Business Analyst
+Q3-A6,Developer,개발자,Développeur,Desarrollador,Entwickler
+Q3-A7,IT Architect,IT 아키텍트,Architecte informatique,Arquitecto de TI,IT Architekt
+Q3-A8,Process Designer,프로세스 설계자,Concepteur de processus,Diseñador de procesos,Prozessdesigner
+Q3-A9,Strategy Manager,전략 및 기획 담당자,Directeur de la stratégie,Gerente de estrategia,Strategischer Leiter
+Q3-A10,Other Professional,기타 (업무 전문가),Autre professionnel,Otro profesional,Andere Fachfunktion
+,,,,,
+Q4,How many employees does your company have?,귀사의 직원은 몇 명입니까?,Combien d'employé(e)s compte votre entreprise ?,¿Cuántos empleados tiene su empresa?,Wie viele Mitarbeiter hat Ihr Unternehmen?
+Q4-A1,0-99,0~99명,0-99,0-99,0-99
+Q4-A2,100-499,100~499명,100-499,100-499,100-499
+Q4-A3,500-999,500~999명,500-999,500-999,500-999
+Q4-A4,"1,000+","1,000명 이상",Plus de 1000,Más de 1000,1.000+
+,,,,,
+Q5,What types of software does your business use? (Select all that apply),어떤 소프트웨어를 사용하고 계십니까? (복수 선택 가능),Quel(s) type(s) de logiciel votre entreprise utilise-t-elle (plusieurs réponses possibles)?,¿Qué tipo de software utiliza su empresa? (Seleccione todo lo que corresponda),Welche Software nutzen Sie in Ihrem Unternehmen? (Alle Zutreffenden auswählen)
+Q5-A1,Process Management,비즈니스 프로세스 관리,Gestion de processus,Gestión de procesos,Management von Prozessen
+Rollover Text,"Process management solutions enable business professionals to document, automate, manage, and continuously improve business processes to increase efficiency and reduce costs.","비즈니스 프로세스 관리 솔루션은 업무 전문가들이 효율성을 극대화하고 비용을 최소화하기 위해 비즈니스 프로세스를 문서화, 자동화, 관리 및 지속적으로 개선할 수 있게 해줍니다.","Les solutions de gestion de processus permettent aux professionnels de constamment renseigner, automatiser, gérer et améliorer les processus de l'activité pour augmenter leur efficacité et réduire leurs coûts.","Las soluciones de gestión de procesosles permiten a los profesionales empresariales documentar, automatizar, gestionar y mejorar continuamente los procesos empresariales para aumentar la eficiencia y reducir loscostes.","Mit Hilfe von Prozess-Managementlösungen können Fachbereiche durch Dokumentation, Automatisierung und Verwaltung von Geschäftsabläufen, ihre Effektivität steigern und Kosten reduzieren."
+Q5-A2,Decision Management,업무적 의사결정 관리,Gestion de décisions,Gestión de decisiones,Management von Entscheidungen
+Rollover Text,"Decision management solutions enable business professionals to manage and automate repeatable business rules, events and operational decisions that impact business performance.","업무적 의사결정 관리 솔루션은 업무 전문가들이 수익을 극대화할 수 있도록, 반복 가능한 비즈니스 룰, 이벤트 및 업무적 의사결정을 관리하고 자동화할 수 있게 해줍니다.","Les solutions de gestion de décisions permettent aux professionnels de gérer et d'automatiser les règles commerciales, événements et décisions d'exploitation répétables qui ont un impact sur le rendement de l'activité.","Las soluciones de gestión de decisiones les permiten a los profesionales empresariales gestionar y automatizar eventos, decisiones operativas y reglas de negocios que se repiten e impactan en el rendimiento de la empresa.",Mit Entscheidungsmanagement-Lösungen können Fachbereiche wiederholende Geschäftsregeln und Entscheidungen verwalten und automatisieren.
+Q5-A3,Cognitive Software,코그너티브 소프트웨어,Logiciel cognitif,Software cognitivo,Kognitive Software
+Rollover Text,A category of technologies that uses natural language processing and machine learning to enable people and machines to interact more naturally. These technologies extend and magnify human expertise and cognition.,"사람과 머신이 자연스럽게 상호작용할 수 있도록, 머신에서 자연어 처리 및 학습을 가능하게 하는 기술을 의미합니다. 이를 통해 인간의 전문지식과 인지 컴퓨팅 능력을 극대화합니다.",C'est une catégorie de technologies qui combine le traitement de langage naturel et l'apprentissage automatique dans l'optique de rendre l'interaction homme-machine plus naturelle. Ces technologies étendent et renforcent l'expertise et les capacités cognitives de l'humain.,Una categoría de tecnologías que usa el procesamiento de lenguajes naturales y aprendizaje automático para que las personas y las máquinas interactúen de manera más natural. Estas tecnologías incrementan y magnifican la experiencia y la cognición humana.,"Eine Kategorie von Technologien, die natürliche Sprachverarbeitung und maschinelles Lernen verwendet, um es Menschen und Maschinen zu ermöglichen, natürlicher zu interagieren. Diese Technologien erweitern und vergrößern die menschliche Expertise und Wahrnehmung."
+Q5-A4,None of these,,Aucune de ces réponses,Ninguno de estos,Keins davon
+Rollover Text,,,,,
+,,,,,
+Q5a0,,,,,
+Q5a0-A1,IBM Business Process Manager,IBM Business Process Manager,IBM Business Process Manager,Gerente de procesos empresariales de IBM,IBM Business Process Manager
+Q5a0-A2,Other business process software,타사 BPM 솔루션,Autre logiciel de gestion des processus métiers,Software de procesos empresariales de otro tipo,Andere Geschäftsprozess-Software
+,,,,,
+Q5a1,,,,,
+Q5a1-A1,IBM Operational Decision Manager,IBM Operational Decision Manager,IBM Operational Decision Manager,Gerente de decisiones operativas de IBM,IBM Operational Decision Manager
+Q5a1-A2,Other business rules software,타사 비즈니스 룰 솔루션,Autre logiciel de gestion des règles métiers,Software de reglas empresarialesde otro tipo,Andere Software für Geschäftsregeln
+,,,,,
+Q5a2,,,,,
+Q5a2-A1,IBM Watson,IBM Watson,IBM Watson,IBM Watson,IBM Watson
+Q5a2-A2,Other Cognitive Software,타사 코그너티브 솔루션,Autre logiciel cognitif,Software cognitivo de otro tipo,Andere kognitive Software
+,,,,,
+Q5a2a0,Are you using IBM Watson or other cognitive software in conjunction with your process or decision technology?,귀사가 사용하는 IBM Watson 또는 타사 코그너티브 솔루션은 귀사의 프로세스 또는 의사결정 기술과 연계되어 있습니까?,Utilisez-vous IBM Watson ou un autre logiciel cognitif parallèlement à vos technologies de processus ou de décisions ?,¿Utiliza IBM Watson u otro software cognitivo en conjunto con su tecnología de procesos o decisiones?,Verwenden Sie IBM Watson oder andere kognitive Software zusammen mit Ihrer Prozess- oder Entscheidungstechnologie?
+Q5a2a0-A1,Yes,예,Oui,Sí,Ja
+Q5a2a0-A2,No,아니요,Non,No,Nein
+,,,,,
+Q5a2a0a0,To what extent?,어느 정도로 활용되고 있습니까?,Dans quelle mesure ?,¿En qué medida?,In wie fern?
+Q5a2a0a0-A1,For select projects,단위 프로젝트,Pour des projets précis,Para ciertos proyectos,Für ausgewählte Projekte
+Q5a2a0a0-A2,Enterprise wide,전사적 적용,Pour toute l'entreprise,En toda la empresa,Unternehmensweit
+,,,,,
+Q6,How familiar are you with cognitive technology?,귀하는 코그너티브 기술에 대해 얼마나 알고 계십니까?,Êtes-vous à l'aise avec les technologies cognitives ?,¿Qué tan familiarizado está con la tecnología cognitiva?,Wie vertraut sind Sie mit kognitiver Technologie?
+Q6-A1,Not at all,전혀 모른다,Pas du tout,Para nada familiarizado,Gar nicht
+Q6-A2,Somewhat,약간 알고 있다,Un peu,Algo familiarizado,Etwas
+Q6-A3,Very,잘 알고 있다,Totalement,Muy familiarizado,Sehr
+,,,,,
+Q7,To what extent do you believe cognitive technologies can improve your business operations?,귀하는 코그너티브 기술이 얼마나 귀사의 비즈니스 업무 방식을 개선할 수 있다고 생각하십니까?,"Selon vous, dans quelle mesure les technologies cognitives peuvent-elles améliorer vos activités commerciales ?",¿En qué medida cree que las tecnologías cognitivas pueden mejorar sus operaciones empresariales?,In welchem Maß können kognitive Technologien Ihrer Meinung nach Ihren Geschäftsbetrieb verbessern?
+Q7-A4,I don't know,잘 모른다,Je l'ignore,No lo sé,Ich weiß nicht
+Q7-A1,Not at all,전혀 개선할 수 없다,Pas du tout,Para nada,Gar nicht
+Q7-A2,Somewhat,약간 개선할 수 있다,Un peu,Un poco,Etwas
+Q7-A3,A lot,많이 개선할 수 있다,Énormément,Mucho,Sehr viel
+,,,,,
+Q8,What do you anticipate being the biggest barrier for you to adopt cognitive business operations? (Select all that apply),"코그너티브 비즈니스 오퍼레이션을 귀사에 적용하고자 한다면, 어떤 영역이 극복해야 할 과제라고 생각하십니까? (복수 선택 가능)","Selon vous, quel serait le plus gros frein à l'adoption des opérations cognitives dans votre entreprise (cocher les cases appropriées)?",¿Cuál cree que será el obstáculo más grande en elmomento de adoptar operaciones empresariales cognitivas? (Seleccione todo lo que corresponda),"Was ist Ihrer Meinung nach das größte Hindernis für Sie, um kognitive Geschäftsabläufe anzuwenden? (Alles Zutreffende auswählen)"
+Q8-A1,My company is too small to implement this type of operation.,회사 규모가 너무 작아서 적용할 수 없다,Mon entreprise est trop petite pour mettre en œuvre ce type d'exploitation.,Mi empresa es demasiado pequeña para implementar este tipo de operación.,"Mein Unternehmen ist zu klein, um diese Betriebsabläufe umzusetzen."
+Q8-A2,The solution is too expensive.,솔루션이 너무 비싸다,La solution est trop chère.,La solución es muy cara.,Die Lösung ist zu teuer
+Q8-A3,"The solution is too new, risky, and/or under-developed.","솔루션이 너무 새롭고, 위험하며, 아직 개발이 덜 되어 있는 것 같다","La solution est trop récente, risquée et/ou sous-développée.","La solución es muy nueva, arriesgadao se encuentra en vías de desarrollo.","Die Lösung ist zu neu, riskant und/oder noch nicht ausgereift."
+Q8-A4,I don't want robots to take over the world.,나는 로봇이 세상을 지배하는 것을 원하지 않는다,Je ne veux pas d'un monde dirigé par des robots.,No quiero que los robots tomen el control del mundo.,"Ich will nicht, dass Roboter die Welt übernehmen."
+Q8-A5,Decision-makers or influencers within my company would not support it.,우리 회사의 의사결정권자나 다른 고위 임원들이 지지하지 않을 것이다,Les responsables ou personnes influentes de mon entreprise ne soutiendront pas le projet.,Las personas influyentes o que toman las decisiones dentro de mi empresa no lo aprobarían.,Entscheidungsträger oder Einflussnehmer in meinem Unternehmen unterstützen das nicht.
+Q8-A6,Other,기타,Autre,Otro,Andere
+Input Placeholder,Enter your own answer,본인의 생각을 기재해 주십시오,Écrivez votre propre réponse ici,Escribasu propia respuesta,Tragen Sie Ihre eigene Antwort ein.
+,,,,,
+Q9,What are your goals in applying cognitive technologies to your business operations? (Select all that apply),귀사의 비즈니스에 코그너티브 기술을 적용하고자 하는 목적은 무엇입니까? (복수 선택 가능),À quelle(s) fin(s) aimeriez-vous utiliser les technologies cognitives dans vos activités commerciales (cocher les cases appropriées) ?,¿Cuáles son sus objetivos al implementar tecnologías cognitivas en sus operaciones empresariales? (Seleccione todo lo que corresponda),Welche Ziele haben Sie hinsichtlich der Anwendung von kognitiven Technologien in Ihren Betriebsabläufen? (Alles Zutreffende auswählen)
+Q9-A1,Evolve customer self-service,고객 서비스 강화,Faire évoluer le libre-service des clients,Mejorar el autoservicio del cliente,Entwicklung zur Selbstbedienung der Kunden
+Rollover Text,Enable intelligent systems to serve customers while minimizing manual handling of service exceptions.,"예외 사항에 대한 수작업 취급을 최소화하여, 지능화된 시스템들이 고객들을 응대",Permettre aux systèmes intelligents de servir le client tout en réduisant au mieux la gestion manuelle d'exceptions de service.,"Permitir que los sistemas inteligentes ayuden a los clientes y, al mismo tiempo, minimizar el manejo manual de excepciones del servicio.","Befähigen Sie intelligente Systeme dazu, Kunden zu bedienen und greifen Sie nur noch in Ausnahmefällen manuell ein."
+Q9-A2,Enhance the abilities of knowledge workers,업무 전문가들의 능력 향상,Renforcer les capacités des employés compétents,Mejorar las capacidades de los trabajadores cualificados.,Aufwertung der Fähigkeiten meiner Mitarbeiter
+Rollover Text,Augment your employees’ skills with actionable information at the right moment.,적절한 시기에 적절한 조치를 취하여 직원 기술 향상,Améliorer les compétences des employés avec des informations utiles au moment opportun.,Aumentar las habilidades de sus empleados brindándoles información factible en el momento adecuado.,Verbessern Sie die Fähigkeiten Ihrer Mitarbeiter durch die Verfügbarkeit von wertvollen Informationen an der richtigen Stelle.
+Q9-A3,Automate back office functions,백오피스 기능 자동화,Automatiser les fonctions de back office,Automatizar las funciones administrativas.,Automatisierung von Backoffice-Funktionen
+Rollover Text,Adaptive automation that combines with workflow and business rules.,워크플로우와 비즈니스 룰을 결합하여 프로세스 자동화,Automatiser de manière adaptative et équilibrée l'exploitation avec le flux de travail et les règles commerciales.,Automatización flexible que combina el flujo de trabajo con las reglas empresariales.,"Adaptive Automation, die den Arbeitsfluss mit Geschäftsregeln kombiniert."
+Q9-A4,"Consume and leverage unstructured “dark” data (video, social, etc.)","구조화되지 않은 다크 데이터(비디오, 소셜 등) 활용","Consommer et tirer parti de données non structurées dite ""dark data"" (vidéos, sociales, etc.)","Consumir y aprovechar los datos “secundarios” sin estructura (videos, redes sociales, etc.).","Nutzung und Einsatz von „verdeckten Daten“ (wie Videos, Daten aus sozialen Netzwerken)"
+Rollover Text,Use cognitive understanding to uncover trends from previously inaccessible data.,과거에 접근할 수 없었던 데이터로부터 트렌드를 파악하기 위해 코그너티브 기술 활용,Utiliser la compréhension cognitive pour repérer des tendances dans des données auparavant illisibles.,Usar el entendimiento cognitivo para descubrir tendencias a partir de datos que antes no eran accesibles.,Verwendung von kognitiven Zusammenhängen zur Enthüllung von Trends aus zuvor unzugänglichen Daten.
+Q9-A5,I don't know,잘 모름,Je l'ignore,No lo sé,Ich weiß nicht
+Q9-A6,Other,기타,Autre,Otro,Andere
+Input Placeholder,Enter your own answer,본인의 생각을 기재해 주십시오,Écrivez votre propre réponse ici,Escribasu propia respuesta,Tragen Sie Ihre eigene Antwort ein.
+,,,,,
+Q10,Do you already have a use case in mind for implementing Cognitive Technologies?,코그너티브 기술을 활용하고자 하는 적용 시나리오(Use Case)가 있습니까?,Avez-vous déjà en tête un cas d'usage de mise en œuvre des technologies cognitives ?,¿Ya tiene un caso de uso en mente para implementar las tecnologías cognitivas?,Haben Sie in Ihrem Unternehmen bereits einen Anwendungsfall zur Umsetzung mit kognitiver Technologie?
+Q10-A1,Yes,예,Oui,Sí,Ja
+Input Placeholder,Please let us know about it.,그것에 대해 알려 주십시오,Veuillez développer.,Cuéntenos sobre él.,Sprechen Sie mit uns darüber.
+Q10-A2,No,아니요,Non,No,Nein
+,,,,,
+Cloud Marketplace Bar - on all results pages,Want to head back to explore the foundations for Cognitive Business Operations?,코그너티브 비즈니스 오퍼레이션을 위한 기반 솔루션을 자세히 보시겠습니까?,Souhaitez-vous étudier à nouveau les possibilité liées aux capacités de Cognitive Business Operations?,¿Quiere regresar a explorar las bases de las operaciones empresariales cognitivas?,Wollen Sie die Grundlagen von Cognitive Business Operations erkunden?
+,Explore process modeling,비즈니스 프로세스 모델링,Étudier la modélisation des processus,Explorar el modelado de procesos,Prozessmodellierung
+,Explore business rules,비즈니스 룰,Étudier les règles commerciales,Explorar las reglas empresariales,Geschäftsregeln
+,Explore process management,비즈니스 프로세스 관리,Étudier la gestion de processus,Explorar la gestión del proceso,Prozessmanagement
+,,,,,
+Learn,,,,,
+Title,You’ve taken the first step!,귀하는 이제 이해하기 시작했습니다!,Vous avez fait le premier pas !,¡Ya ha dado el primer paso!,Sie haben den ersten Schritt getan!
+Abstract,Congratulations! You have passed the assessment stage! You are ready to deepen your knowledge about how cognitive business operations can enhance process and decision management.,축하합니다! 귀하는 자가진단 단계를 완료하였습니다! 귀하는 코그너티브 비즈니스 오퍼레이션이 어떻게 비즈니스 프로세스와 업무적 의사결정 관리를 개선할 수 있는지 확인하실 수 있습니다.,Félicitations ! Vous venez de passer l'étape d'évaluation. Vous voilà prêt à approfondir vos connaissances pour savoir comment les opérations commerciales cognitives peuvent améliorer la gestion de la prise de décision et les processus.,¡Felicitaciones! ¡Ha pasado la etapa de evaluación! Ya está listo para ampliar su conocimiento sobre cómo las operaciones empresariales cognitivas pueden mejorar la gestión de procesos y decisiones.,"Glückwunsch! Sie haben das Assessment bestanden.
+ Wir zeigen Ihnen nun, wie Sie Ihre Prozess- und Geschäftsregeln-Umgebung mit Cognitive Business Operations anreichern können."
+,,,,,
+Offer 1,,,,,
+Title,Hear the Truth,진실을 알려드립니다,Apprendre la vérité,Conozca la verdad,Das sind die Fakten
+Text,"Are you skeptical about the benefits of Cognitive Business Operations? Perhaps it sounds like something that would be too expensive for your company, or too risky, or simply just not something a company could endeavor upon just yet. At this stage in your journey, it's normal to wonder about these things - revolutionary technology has a tendency to invoke these sentiments.",코그너티브 비즈니스 오퍼레이션이 제공할 수 있는 혜택에 대해 의심하고 계십니까? 너무 비싸거나 너무 위험하다고 보십니까? 아직 귀사에서 적용할 수 없는 영역이라고 생각하십니까? 이런 의심을 갖는 것은 당연합니다. 그러나 혁신적인 기술들은 언제나 이런 질문들과 함께 해왔습니다.,"Êtes-vous sceptique quant aux avantages des opérations commerciales cognitives ? Peut-être vous semblent-t-elles trop chères ou risquées pour votre entreprise, ou ne sont-elles pas encore le genre d'initiative que votre entreprise peut se permettre de prendre. À ce stade, rien de plus normal que de se poser ce genre de questions, les technologies révolutionnaires ont tendance à générer des sentiments de cette nature.","¿Es escéptico respecto de los beneficios de las operaciones empresariales cognitivas? Quizá suena como algo demasiado caro para su empresa, demasiado arriesgado o simplemente algo que su empresa aún no podría implementar. En esta etapa de su transición es normal tener estas dudas. La tecnología revolucionaria tiende a generar esos sentimientos.","Klingen die Vorteile von Cognitive Business Operations für Sie unglaubwürdig ? Vielleicht hört es sich nach etwas an, was für Ihr Unternehmen zu teuer oder zu riskant ist ? Oder ist es etwas, das für Unternehmen noch nicht realistisch ist? Auf dieser Etappe Ihrer Reise ist es normal, sich diese Dinge zu fragen – revolutionäre Technologie tendiert dazu, diese Gefühle zu aktivieren."
+,,,,,
+,"Well, there's good news: It's real, attainable, and ready to implement right now.","좋은 소식이 바로 여기 있습니다. 실제적이고, 구현할 수 있고, 바로 실행할 준비가 되어 있다는 점입니다.","Eh bien, bonne nouvelle : Celles-ci sont réelles, abordables et prêtes pour leur mise en œuvre immédiate.","Bueno, aquí las buenas noticias: es real, asequible y lista para implementarla al instante.","Nun, es gibt gute Neuigkeiten: es ist echt, erreichbar und steht sofort zur Verfügung."
+,,,,,
+,"Jim Casey, Senior Product Manager, is here to let you in on the truth about Cognitive Business Operations. After watching this video, you'll be one step closer to processes and decisions that sense, respond,and learn.","IBM의 제품 관리 담당 임원(Senior Product Manager)인 Jim Casey가 여러분에게 코그너티브 비즈니스 오퍼레이션에 대한 진실을 전달해 드릴 것입니다. 비디오를 보시고 나면 감지하고, 반응하고, 학습하는 다음 단계로 나아가게 될 것입니다.","Le Directeur principal des produits, Jim Casey, est là pour vous apporter toute la lumière concernant les opérations commerciales cognitives. À la fin de cette vidéo, vous aurez fait un pas de plus vers les processus et décisions qui captent, réagissent et apprennent.","Jim Casey, Director Seniorde producto, está aquí para que conozca la verdad sobre las operaciones empresariales cognitivas. Después de ver este video se encontrará un paso más cerca de los procesos y las decisiones que brindan un sentido, una respuesta y un aprendizaje.","Von Jim Casey (Senior Produkt Manager) erfahren Sie einige Fakten zu Cognitive Business Operations. Dieses Video bringt Sie noch einen Schritt näher an Prozesse und Entscheidungen, die fühlen, antworten und lernen können."
+CTA,Watch the video,비디오 보기,Regardez la vidéo,Ver el video,Sehen Sie sich das Video an.
+,,,,,
+Offer 2,,,,,
+Title,Hear from an expert,전문가 의견,Un expert témoigne,Escuchar a un experto,Das sagt der Experte
+Text,Start your journey with an inside look at how cognitive technology is transforming the field of business process management (BPM.),코그너티브 기술이 비즈니스 프로세스 관리 영역을 어떻게 변화시키고 있는지 확인하십시오.,Entamez votre voyage en voyant de l'intérieur comment la technologie cognitive transforme le domaine de la gestion des processus d'affaires (BPM).,"Comience su transición con una mirada sobre cómo la tecnología cognitiva está transformando el campo de la gestión de procesos empresariales (Business Process Management, BPM).","Beginnen Sie Ihre Reise mit einem Einblick darin, wie kognitive Technologie den Bereich Business Process Management (BPM) verwandelt."
+,,,,,
+,"Understanding the importance of BPM as a foundation of Cognitive Business Operations is a big step in your progress toward automating your processes, augmenting your knowledge workers and discovering new insights.","BPM을 코그너티브 비즈니스 오퍼레이션의 중요한 기반 기술로 인식하는 것은 귀사의 프로세스 자동화, 업무 전문가 역량 강화, 새로운 통찰력 확보를 위한 중요한 첫 걸음입니다.","S'il y a une grande étape avant l'automatisation de vos processus, le renforcement de vos travailleurs intellectuels et la découverte de nouvelles perspectives c'est bien de comprendre l'importance de la BPM en tant que fondement des opérations commerciales cognitives.","Entender la importancia de BPM como el cimiento de las operaciones empresariales cognitivas es un gran paso en su progreso hacia la automatización de sus procesos, el aumento del conocimiento de sus empleados y el descubrimiento de nuevos enfoques.","Das Verständnis für die Wichtigkeit von BPM als Grundlage von Cognitive Business Operations ist ein großer Schritt zur Automatisierung Ihrer Prozesse, zur Steigerung des Wissens Ihrer Fachkräfte und zur Entdeckung neuer Einblicke."
+CTA,Watch the video,비디오 보기,Regardez la vidéo,Ver el video,Sehen Sie sich das Video an.
+,,,,,
+Resources,,,,,
+Title,Related Resources,관련 리소스,Ressources connexes,Recursos relacionados,Weitere ergänzende Informationen
+,,,,,
+Resource 1,,,,,
+Shape,Blog,블로그,Blog,Blog,Blog
+Abstract,See the criteria used to infuse business ops with cognitive computing,코그너티브 비즈니스 오퍼레이션에 코그너티브 컴퓨팅을 접목시키는 기준,Voyez les critères utilisés pour sensibiliser les exploitants d'entreprise à l'informatique cognitive.,Mire los criterios utilizados para mezclar las operaciones empresariales con la informática cognitiva,"Sehen Sie die Kriterien, die benutzt werden, um kognitive Technologie in Geschäftsabläufe einfließen zu lassen."
+CTA,Learn more,자세히 보기,En savoir plus,Conocer más,Mehr Informationen
+,,,,,
+Resource 2,,,,,
+Shape,Watch,비디오,Voir,Ver,Ansehen
+Abstract,Ushering your business into the Cognitive Era Video.,코그너티브 시대로 귀사의 비즈니스 인도,Vidéo : « Faire entrer son entreprise dans l'ère du cognitif ».,Video: guiar a su empresa hacia la era cognitiva.,Video: Führen Sie Ihr Unternehmen in die kognitive Epoche ein.
+CTA,Watch the video,비디오 보기,Regardez la vidéo,Ver el video,Sehen Sie sich das Video an.
+,,,,,
+Resource 4,,,,,
+Shape,Website,웹사이트,Site internet,Sitio web,Webseite
+Abstract,Continue exploring cognitive business operations,코그너티브 비즈니스 오퍼레이션 웹페이지,Poursuivez l'exploration des opérations commerciales cognitives,Continuar explorando las operaciones empresariales cognitivas,Mehr zu Cognitive Business Operations
+,,,,,
+Build,,,,,
+Title,You're well on your way!,귀하는 시작할 준비가 되었습니다!,Vous êtes en bonne voie !,¡Está bien encaminado!,Sie sind auf dem besten Weg!
+Abstract,Congratulations! You understand and see the value that cognitive technology can bring to your business operations. You're ready to design the right solution for your organization.,축하합니다. 귀하는 코그너티브 기술이 귀사의 비즈니스에 가져올 수 있는 가치를 잘 이해하고 있습니다. 귀하는 올바른 솔루션을 설계할 준비가 되었습니다.,"Félicitations ! Désormais, vous devriez comprendre et voir la valeur ajoutée par les technologies cognitives à votre exploitation commerciale. Vous voilà prêt à concevoir la solution idéale pour votre organisation.",¡Felicitaciones! Entiende y reconoce el valor que la tecnología cognitiva le puede aportar a sus operaciones empresariales. Ya está listo para diseñar la solución adecuada para su organización.,"Glückwunsch! Sie verstehen und sehen den Wert, den kognitive Technologie Ihnen bringen kann. Sie sind bereit, die für Ihr Unternehmen beste Lösung zu entwerfen."
+,,,,,
+Offer 3,,,,,
+Title,Watch the demo,데모 보기,Voir la démonstration,Ver la demostración,Sehen Sie sich die Demo an.
+Text,"Whether you're looking to enhance your customer experience, save time on tasks and procedures, or route work more efficiently and effectively, Cognitive Business Operations can help you accomplish these goals. This demonstration is one example of Cognitive Business Operations in action. It illustrates the benefits Watson technology can have on BPM. After you watch this demo, you'll be one step closer to building processes and decisions that sense, respond, and learn.","코그너티브 비즈니스 오퍼레이션은 고객 경험 향상, 작업 절차에 소요되는 시간 최소화, 업무 효율성 향상 등의 목표를 달성할 수 있도록 도와줍니다. 이 데모는 실제 운영하고 있는 코그너티브 비즈니스 오퍼레이션의 한 사례입니다. BPM 위에서 구동되는 IBM Watson 데모를 시청하면, 귀하는 감지, 응답 및 학습하는 프로세스와 의사결정 구축에 한 걸음 더 가까이 다가가게 될 것입니다.","Que vous cherchiez à améliorer votre expérience client, à gagner du temps dans l'exécution des tâches et procédures ou même à diriger le travail de manière plus efficace et efficiente, les opérations commerciales cognitives peuvent vous aider à atteindre ces objectifs. Cette démonstration est un exemple des opérations commerciales cognitives à l'œuvre. Elle présente les avantages que peut tirer la technologie Watson du BPM. À la fin de cette vidéo de démonstration, vous aurez fait un pas de plus vers la création de processus et décisions qui captent, réagissent et apprennent.","Si usted está buscando mejorar la experiencia de sus clientes, ahorrar tiempo en las tareas y procedimientos o encaminar el trabajo de manera más eficiente, las operaciones empresariales cognitivas pueden ayudarlo a lograr estos objetivos. Esta demostración es un ejemplo de las operaciones empresariales cognitivas en acción. Ilustra los beneficios que la tecnología Watson puede brindarle a BPM. Después de ver esta demostración se encontrará un paso más cerca de diseñar procesos y decisiones que brindan un sentido, una respuesta y un aprendizaje.","Ob Sie die Zufriedenheit Ihrer Kunden verbessern wollen, Ihre Prozesse optimieren oder Aufgaben effizienter und effektiver verteilen wollen, Cognitive Business Operations kann Ihnen beim Erreichen dieser Ziele helfen. Diese Demonstration ist ein Beispiel für Cognitive Business Operations 'in Action'. Es zeigt die Vorteile, die die Watson Technologie in Verbindung mit BPM bringen kann. Wenn Sie diese Demo gesehen haben, sind Sie einen Schritt näher an Prozessen und Entscheidungen, die spüren, antworten und lernen können."
+,,,,,
+Resources,,,,,
+Title,Related Resources,관련 리소스,Ressources connexes,Recursos relacionados,Weitere ergänzende Informationen
+,,,,,
+Resource 1,,,,,
+Shape,Demo,데모,Démonstration,Demostración,Demo
+Abstract,See how BPM + IBM Watson can help with high-value recruitment processes.,"BPM과 IBM Watson이 결합하면, 어떻게 기업의 채용 과정에서 고부가가치를 제공할 수 있는지 확인하십시오.",Voyez comment BPM et IBM Watson peuvent aider en matière de processus de recrutement à valeur élevée.,Observe cómo BPM + IBM Watson pueden ayudar con los procesos de contratación de alto nivel.,"Sehen Sie, wie BPM + IBM Watson bei anspruchsvollen Einstellungsprozessen helfen kann."
+CTA,Learn more,자세히 보기,En savoir plus,Conocer más,Erfahren Sie mehr
+,,,,,
+Resource 2,,,,,
+Shape,Community,커뮤니티,Communauté,Comunidad,Community
+Abstract,Engage with others in the BPM Community at bpm/DEV.,BPM 개발자 커뮤니티에서 같은 고민을 가진 사람들과 교류하세요.,Engagez vous avec les autres dans la communauté BPM à bpm/DEV.,Entable conversaciones en la comunidad BPM en bpm/DEV.,Treten Sie in Kontakt mit anderen in der BPM Community bpm/DEV.
+CTA,Join Us,가입하기,Nous rejoindre,Únase,Treten Sie bei
+,,,,,
+Resource 3,,,,,
+Shape,Website,웹사이트,Site internet,Sitio web,Webseite
+Abstract,Continue exploring cognitive business operations,코그너티브 비즈니스 오퍼레이션 웹페이지,Poursuivez l'exploration des opérations commerciales cognitives,Continuar explorando las operaciones empresariales cognitivas,Mehr zu Cognitive Business Operations
+CTA,Visit the website,웹사이트를 방문하세요.,Visiter le site internet,Visite el sitio web,Besuchen Sie die Webseite
+,,,,,
+Rollout,,,,,
+Title,You’re a cognitive rock star!,귀하가 바로 코그너티브 슈퍼스타입니다!,Vous êtes une rock star des technologies cognitives !,¡Ya es un profesional de la tecnología cognitiva!,Sie sind ein kognitiver Rockstar!
+Abstract,Congratulations! You are among the select few who have unlocked the power of cognitive business operations.,축하합니다! 귀하는 코그너티브 비즈니스 오퍼레이션의 숨은 힘을 발견한 얼마 안 되는 분에 속합니다.,Félicitations ! Vous êtes parmi les rares à avoir débloqué la puissance des opérations commerciales cognitives.,¡Felicitaciones! Se encuentra entre los pocos seleccionados que han comprendido el poder de las operaciones empresariales cognitivas.,"Glückwunsch! Sie sind unter den wenigen Auserwählten, die die Kraft von Cognitive Business Operations freigesetzt haben."
+,,,,,
+Offer 1,,,,,
+Title,Share and learn,공유 및 학습,Partager et apprendre,Compartir y conocer,Teilen und lernen Sie
+Abstract,Engage with others in the BPM Community at bpm/DEV.,BPM 개발자 커뮤니티에서 같은 고민을 가진 사람들과 교류하세요.,Engagez vous avec les autres dans la communauté BPM à bpm/DEV.,Entable conversaciones en la comunidad BPM en bpm/DEV.,Treten Sie in Kontakt mit anderen in der BPM Community bpm/DEV.
+CTA,Join the community,커뮤니티 가입,Intégrer la communauté,Únase a la comunidad,Treten Sie der Community bei.
+Additional Content,"Engage with other developers in the BPM community and access how-to videos, product demonstrations, and partner assets.","BPM 커뮤니티에서 다른 개발자들과 교류하고, 실습 비디오, 제품 데모, 파트너 자산 등을 확인해 보세요.","Engagez vous avec les autres développeurs dans la communauté BPM et accédez à des tutoriels vidéos, des démonstrations de produits et autres atouts des partenaires.","Converse con otros desarrolladores en la comunidad BPM y acceda a videos instructivos, demostraciones de productos y activos de socios.","Kommunizieren Sie mit anderen Entwicklern in der BPM Community. Hier haben Sie Zugang zu hilfreichen Videos, Produkt-Demos und mehr."
+,,,,,
+,"In this single location, knowledge and experiences are shared to help all members learn, use, and connect. From foundational solutions to advanced cognitive applications, you'll find helpful resources to explore. Now that you are implementing cognitive in your business, share your experiences as a cognitive rock star.","이 커뮤니티를 통해 다양한 지식과 경험을 공유할 수 있으며, 기초적인 솔루션부터 고급 코그너티브 애플리케이션까지 유용한 리소스들을 찾아볼 수 있습니다. 귀하는 이미 코그너티브 비즈니스를 실행하고 있기 때문에, 코그너티브 슈퍼스타 관점에서 귀하의 경험을 공유하시기 바랍니다.","À cet endroit unique sont partagés connaissances et expériences pour aider tous les membres à apprendre, utiliser et se connaître. Entre solutions basiques et applications cognitives avancées, vous y trouverez des ressources utiles à explorer. À présent que vous mettez en œuvre les technologies cognitives dans votre activité, partagez votre expérience comme une rock star des technologies cognitives.","Solo en este lugar se comparten conocimientos y experiencias para ayudar a todos los miembros a aprender, usar y conectarse. Desde soluciones de base hasta implementaciones cognitivas de avanzada, encontrará útiles recursos para explorar. Ahora que implementa la tecnología cognitiva en su empresa, comparta sus experiencias como un profesional del tema.","Hier werden Wissen und Erfahrungen ausgetauscht, um allen Mitgliedern das Lernen, die Anwendung und die gemeinsame Kommunikation zu vereinfachen. Sie finden hier viele hilfreiche Beiträge - von einfachen Grundlagen bis hin zu anspruchsvollen kognitiven Anwendungen. Teilen Sie Ihre Erfahrungen mit Cognitive Business Operations mit anderen."
+,,,,,
+Resources,,,,,
+Title,Related Resources,관련 리소스,Ressources connexes,Recursos relacionados,Weitere ergänzende Informationen
+,,,,,
+Resource 1,,,,,
+Shape,Share,공유,Partager,Compartir,Teilen
+Abstract,Share your cognitive business operations success with the world.,귀하의 코그너티브 비즈니스 오퍼레이션 성공 스토리를 전세계에 공유하세요.,Partagez avec le monde votre réussite avec les opérations commerciales cognitives.,Comparta el éxito de sus operaciones empresariales cognitivas con el mundo.,Teilen Sie Ihre Erfolge mit Cognitive Business Operations mit anderen weltweit.
+CTA,Learn more,자세히 보기,En savoir plus,Conocer más,Mehr Informationen
+,,,,,
+Resource 3,,,,,
+Shape,Community,커뮤니티,Communauté,Comunidad,Community
+Abstract,Join the IBM Operational Decision Manager Community.,IBM Operational Decision Manager 커뮤니티에 가입하세요.,Intégrez la communauté des Directeurs d'exploitation IBM.,Únase a la comunidad de gerentes de decisiones operativas de IBM.,Treten Sie der IBM Operational Decision Manager Community bei.
+CTA,Join Us,가입하기,Nous rejoindre,Únase,Treten Sie bei
+,,,,,
+Resource 4,,,,,
+Shape,Community,커뮤니티,Communauté,Comunidad,Community
+Abstract,Join the IBM Middleware User Community.,IBM 미들웨어 사용자 커뮤니티에 가입하세요.,Intégrer la communauté des utilisateurs d'intergiciels IBM.,Únase a la comunidad de usuarios de Middleware de IBM.,Treten Sie der IBM Middleware Community bei.
+,,,,,
+BPM eBook Copy,,,,,
+In shape,Learn more,자세히 보기,En savoir plus,Conozca más,Mehr Informationen
+Description,See how IBM Business Process Manager can help your organization become more agile and efficient,IBM Business Process Manager가 귀사를 어떻게 더욱 민첩하고 효율적으로 만들 수 있는지 확인해 보세요,Découvrez comment IBM Business Process Manager peut rendre votre organisation plus agile et plus efficace,Descubra cómo IBM Business Process Manager puede ayudar a su organización a ser más ágil y eficiente,"Sehen Sie, wie der IBM Business Process Manager Ihnen dabei helfen kann, Ihr Unternehmen agiler und effizienter zu gestalten."
+CTA,Download the ebook,전자책 다운로드,Télécharger le livre électronique,Descargar el libro electrónico,Das e-Book herunterladen
+,,,,,
+ODM eBook Copy,,,,,
+In Shape,Learn more,자세히 보기,En savoir plus,Conozca más,Mehr Informationen
+Description,See how IBM Operational Decision Manager can help your organization make the right decisions at the right time,IBM Operational Decision Manager가 어떻게 귀사의 적절한 의사결정을 지원하는지 확인해 보세요,Découvrez comment IBM Operational Decision Manager peut aider votre organisation à prendre les bonnes décisions au moment opportun,Descubra cómo IBM Operational Decision Manager puede ayudar a su organización a tomar las decisiones adecuadas en el momento oportuno,"Sehen Sie, wie der IBM Operational Decision Manager Ihrem Unternehmen dabei helfen kann, die richtigen Entscheidungen zur richtigen Zeit zu treffen."
+CTA,Download the ebook,전자책 다운로드,Télécharger le livre électronique,Descargar el libro electrónico,Das e-Book herunterladen
+,,,,,
+Metrics Headers,,,,,
+,Asset1,자산1,Actif1,Activo1,Posten1
+,Asset2,자산2,Actif2,Activo2,Posten2
+,Asset3,자산3,Actif3,Activo3,Posten3
+,Asset4,자산4,Actif4,Activo4,Posten4
+,Asset5,자산5,Actif5,Activo5,Posten5
+,Belief,신념,Croyance,Convicción,Überzeugung
+,Cog Goals,코그너티브 목표,Objectif cognitif,Objetivos cognitivos,Kognitive Ziele
+,Cognitive Software,코그너티브 소프트웨어,Logiciel cognitif,Software cognitivo,Kognitive Software
+,Comp Size,회사 규모,Taille de composant,Tamaño de la computadora,Firmengröße
+,Country,국가,Pays,País,Land
+,Familiar,친숙도,Familier,Familiar,Vertraut
+,In Conjunction,관련,En parallèle,En combinación,In Verbindung mit
+,Industry,산업,Secteur,Industria,Branche
+,Link1,링크1,Lien1,Enlace1,Link1
+,Link2,링크2,Lien2,Enlace2,Link2
+,Link3,링크3,Lien3,Enlace3,Link3
+,Link4,링크4,Lien4,Enlace4,Link4
+,Link5,링크5,Lien5,Enlace5,Link5
+,Obstacle,장애,Obstacle,Obstáculo,Hindernis
+,Referrer URL,접속 경로 URL,Adresse du référent,URL de procedencia,Zugewiesene URL
+,Result,결과,Résultat,Resultado,Ergebnis
+,Role,역할,Rôle,Rol,Rolle
+,Scale,규모,Échelle,Escala,Umfang
+,Session,세션,Séance,Sesión,Sitzung
+,Software,소프트웨어,Logiciel,Software,Software
+,Software2,소프트웨어2,Logiciel2,Software2,Software2
+,Software3,소프트웨어3,Logiciel3,Software3,Software3
+,Timestamp,타임스탬프,Horodatage,Marca de tiempo,Zeitstempel
+,Use Case,적용 시나리오,Cas d'usage,Caso de uso,Anwendungsfall
+Dynamic Links,,,,,
+,http://www.ibm.com/middleware/us-en/solutions/intelligent-business/business-process-improvement/,,https://www.ibm.com/middleware/fr-fr/solutions/intelligent-business/business-process-improvement/,,
+,http://public.dhe.ibm.com/common/ssi/ecm/ws/en/wsm14002usen/WSM14002USEN.PDF,,,,https://www-01.ibm.com/marketing/iwm/iwm/web/signup.do?source=sw-app&S_PKG=ov27846&S_TACT=109KA6HW&lang=de_DE
+,https://www.ibm.com/marketplace/cloud/process-modeling-in-the-cloud/us/en-us,,,,https://www.ibm.com/marketplace/cloud/process-modeling-in-the-cloud/de/de-de
+,https://www.ibm.com/marketplace/cloud/operational-decision-management/us/en-us,,,,https://www.ibm.com/marketplace/cloud/operational-decision-management/de/de-de
+,https://www.ibm.com/marketplace/cloud/process-management-software-in-the-cloud/us/en-us,,,,https://www.ibm.com/marketplace/cloud/process-management-software-in-the-cloud/de/de-de

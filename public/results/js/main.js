@@ -1,0 +1,1 @@
+$(".whatisinsidebutton").on("click", function(){$(this).toggleClass("active")});

@@ -1,0 +1,595 @@
+
+
+db.questions.insert({_id:"en", id:0, questions_array: [
+	{_id:"Q1",id:0, group:0, question:"Where are you located?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>About Your Business</span> | Software Usage | Cognitive Technology", answers_array: [
+		{_id:"Q1-A1", qId:"Q1",id:0, answer:"Africa", blurb:{title:"",text:""}, average:false, icon:""},
+		{_id:"Q1-A2", qId:"Q1",id:1, answer:"Asia Pacific", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A3", qId:"Q1",id:2, answer:"China", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A4", qId:"Q1",id:3, answer:"Europe", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A5", qId:"Q1",id:4, answer:"Japan", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A6", qId:"Q1",id:5, answer:"Latin America", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A7", qId:"Q1",id:6, answer:"Middle East", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A8", qId:"Q1",id:7, answer:"North America", blurb:{title:"", text:""}, average:false, icon:""}
+	]},
+
+	{_id:"Q2",id:1, group:1, question:"What is your company’s industry?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>About Your Business</span> | Software Usage | Cognitive Technology", answers_array: [
+		{_id:"Q2-A1",qId:"Q2",id:0, answer:"Automotive", blurb:{title:"",text:""},average:false,icon:"icons/q1/auto.png"},
+		{_id:"Q2-A2",qId:"Q2",id:1, answer:"Communications", blurb:{title:"",text:""},average:false,icon:"icons/q1/communication.png"},
+		{_id:"Q2-A3",qId:"Q2",id:2, answer:"Consumer Products", blurb:{title:"",text:""},average:false,icon:"icons/q1/consumer.png"},
+		{_id:"Q2-A4",qId:"Q2",id:3, answer:"Education", blurb:{title:"",text:""},average:false,icon:"icons/q1/education.png"},
+		{_id:"Q2-A5",qId:"Q2",id:4, answer:"Energy & Utilities", blurb:{title:"",text:""},average:false,icon:"icons/q1/energy.png"},
+		{_id:"Q2-A6",qId:"Q2",id:5, answer:"Financial Services", blurb:{title:"",text:""},average:false,icon:"icons/q1/financial.png"},
+		{_id:"Q2-A7",qId:"Q2",id:6, answer:"Government", blurb:{title:"",text:""},average:false,icon:"icons/q1/goverment.png"},
+		{_id:"Q2-A8",qId:"Q2",id:7, answer:"Healthcare", blurb:{title:"",text:""},average:false,icon:"icons/q1/healthcare.png"},
+		{_id:"Q2-A9",qId:"Q2",id:8, answer:"Insurance", blurb:{title:"",text:""},average:false,icon:"icons/q1/insurance.png"},
+		{_id:"Q2-A10",qId:"Q2",id:9, answer:"Manufacturing", blurb:{title:"",text:""},average:false,icon:"icons/q1/manufacturing.png"},
+		{_id:"Q2-A11",qId:"Q2",id:10, answer:"Pharmaceuticals", blurb:{title:"",text:""},average:false,icon:"icons/q1/pharmaceuticals.png"},
+		{_id:"Q2-A12",qId:"Q2",id:11, answer:"Retail", blurb:{title:"",text:""},average:false,icon:"icons/q1/retail.png"},
+		{_id:"Q2-A13",qId:"Q2",id:12, answer:"Travel and Transportation", blurb:{title:"",text:""},average:false,icon:"icons/q1/travel.png"},
+		{_id:"Q2-A14",qId:"Q2",id:13, answer:"Other", blurb:{title:"",text:""},average:false,icon:"icons/q1/other.png"}
+	]},
+
+	{_id:"Q3",id:2, group:2, question:"Which title most closely matches your current role?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>About Your Business</span> | Software Usage | Cognitive Technology", answers_array: [
+		{_id:"Q3-A1",qId:"Q3",id:0, answer:"Chief Innovation Officer", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A2",qId:"Q3",id:1, answer:"Chief Operation Officer", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A3",qId:"Q3",id:2, answer:"Chief Technology Officer", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A4",qId:"Q3",id:3, answer:"Other C-Level Executive", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A5",qId:"Q3",id:4, answer:"Business Analyst", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A6",qId:"Q3",id:5, answer:"Developer", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A7",qId:"Q3",id:6, answer:"IT Architect", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A8",qId:"Q3",id:7, answer:"Process Designer", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A9",qId:"Q3",id:8, answer:"Strategy Manager", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A10",qId:"Q3",id:9, answer:"Other Business Professional", blurb:{title:"",text:""},average:false,icon:""}
+	]},
+
+	{_id:"Q4",id:3, group:3, question:"How many employees does your company have?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>About Your Business</span> | Software Usage | Cognitive Technology", answers_array: [
+		{_id:"Q4-A1",qId:"Q4",id:0, answer:"0-99", blurb:{title:"",text:""},average:false,icon:"icons/q3/0_99.png"},
+		{_id:"Q4-A2",qId:"Q4",id:1, answer:"100-499", blurb:{title:"",text:""},average:false,icon:"icons/q3/100_499.png"},
+		{_id:"Q4-A3",qId:"Q4",id:2, answer:"500-999", blurb:{title:"",text:""},average:false,icon:"icons/q3/500_999.png"},
+		{_id:"Q4-A4",qId:"Q4",id:3, answer:"1,000+", blurb:{title:"",text:""},average:false,icon:"icons/q3/1000_.png"}
+	]},
+
+	{_id:"Q5",id:4, group:4, question:"What types of software does your business use?", answerPerRow:4, icons: true, selectedAnswerID: null,multiple: true, guage:"About Your Business | <span class='active'>Software Usage</span> | Cognitive Technology", answers_array: [
+		{_id:"Q5-A1",qId:"Q5",id:0, answer:"Process Management", blurb:{title:"",text:"Process management solutions enable business professionals to document, automate, manage, and continuously improve business processes to increase efficiency and reduce costs."},average:false,icon:"icons/q4/process.png", nextQuestion:5},
+		{_id:"Q5-A2",qId:"Q5",id:1, answer:"Decision Management", blurb:{title:"",text:"Decision management solutions enable business professionals to manage and automate repeatable business rules, events and operational decisions that impact business performance."},average:false,icon:"icons/q4/decision.png", nextQuestion:6},
+		{_id:"Q5-A3",qId:"Q5",id:2, answer:"Cognitive Software", blurb:{title:"",text:"A category of technologies that uses natural language processing and machine learning to enable people and machines to interact more naturally. These technologies extend and magnify human expertise and cognition."},average:false,icon:"icons/q4/cognitive.png", nextQuestion:7},
+		{_id:"Q5-A4",qId:"Q5",id:3, answer:"None of these", blurb:{title:"",text:""},average:false,icon:"icons/q4/none.png"}
+	]},
+
+	{_id:"Q5a0", id:5, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:0, answers_array: [
+		{_id:"Q5a0-A1",qId:"Q5a0",id:0, answer:"IBM Business Process Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+		{_id:"Q5a0-A2",qId:"Q5a0",id:1, answer:"Other business process software", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a1", id:6, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:1, answers_array: [
+		{_id:"Q5a1-A1",qId:"Q5a1",id:0, answer:"IBM Operational Decision Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+		{_id:"Q5a1-A2",qId:"Q5a1",id:1, answer:"Other business rules software", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a2", id:7, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:2, answers_array: [
+		{_id:"Q5a2-A1",qId:"Q5a2",id:0, answer:"IBM Watson", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:8},
+		{_id:"Q5a2-A2",qId:"Q5a2",id:1, answer:"Other Cognitive Software", blurb:{title:"",text:""},average:false,icon:"",score:1, nextQuestion:8}
+	]},
+
+	{_id:"Q5a2a0", id:8, group:4, question:"Are you using IBM Watson or other cognitive software in conjunction with your process or decision technology?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:7,upA:"0,1", answers_array: [
+		{_id:"Q5a2a0-A1",qId:"Q5a2a0",id:0, answer:"Yes", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:9},
+		{_id:"Q5a2a0-A2",qId:"Q5a2a0",id:1, answer:"No", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:10}
+	]},
+
+	{_id:"Q5a2a0a0", id:9, group:4, question:"To what extent?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:8,upA:0, answers_array: [
+		{_id:"Q5a2a0a0-A1",qId:"Q5a2a0a0",id:0, answer:"For select projects", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"},
+		{_id:"Q5a2a0a0-A2",qId:"Q5a2a0a0",id:1, answer:"Enterprise wide", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"}
+	]},
+
+	{_id:"Q6", id:10, group:5, question:"How familiar are you with cognitive technology?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q6-A1",qId:"Q6",id:0, answer:"Not at all", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,hard_finish:"learn"},
+		{_id:"Q6-A2",qId:"Q6",id:1, answer:"Somewhat", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1},
+		{_id:"Q6-A3",qId:"Q6",id:2, answer:"Very", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1}
+	]},
+
+	{_id:"Q7", id:11, group:6, question:"To what extent do you believe cognitive technologies can improve your business operations?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q7-A4",qId:"Q7",id:0, answer:"I don't know", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+		{_id:"Q7-A1",qId:"Q7",id:1, answer:"Not at all", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+		{_id:"Q7-A2",qId:"Q7",id:2, answer:"Somewhat", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1,nextQuestion:13},
+		{_id:"Q7-A3",qId:"Q7",id:3, answer:"A lot", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1,nextQuestion:13}
+	]},
+
+	{_id:"Q8", id:12, group:7, question:"What do you anticipate being the biggest barrier for you to adopt cognitive business operations?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q8-A1",qId:"Q8",id:0, answer:"My company is too small to implement this type of operation.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A2",qId:"Q8",id:1, answer:"The solution is too expensive.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A3",qId:"Q8",id:2, answer:"The solution is too new, risky, and/or under-developed.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A4",qId:"Q8",id:3, answer:"I don’t want robots to take over the world.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A5",qId:"Q8",id:4, answer:"Decision-makers or influencers within my company would not support it.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A6",qId:"Q8",id:5, answer:"Other", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Enter your own answer",hard_finish:"learn"}
+	]},
+
+	{_id:"Q9", id:13, group:8, question:"By applying cognitive technologies to your business operations, what would you aim to achieve?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q9-A1",qId:"Q9",id:0, answer:"Evolve customer self-service", blurb:{title:"",text:"Enable intelligent systems to serve customers while minimizing manual handling of service exceptions."},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A2",qId:"Q9",id:1, answer:"Enhance the abilities of knowledge workers", blurb:{title:"",text:"Augment your employees’ skills with actionable information at the right moment."},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A3",qId:"Q9",id:2, answer:"Automate back office functions", blurb:{title:"",text:"Adaptive automation that combines with workflow and business rules."},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A4",qId:"Q9",id:3, answer:"Consume and leverage unstructured “dark” data (video, social, etc.)", blurb:{title:"",text:"Use cognitive understanding to uncover trends from previously inaccessible data."},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A5",qId:"Q9",id:4, answer:"I don't know", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"learn"},
+		{_id:"Q9-A6",qId:"Q9",id:5, answer:"Other", blurb:{title:"",text:""},with_input:true,with_input_placeholder:"Enter your own answer",average:false,icon:"",score:1,nextQuestion:14}
+	]},
+
+	{_id:"Q10", id:14, group:9, question:"Do you already have a use case in mind for implementing Cognitive Technologies?", answerPerRow:1, icons: false, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q10-A1",qId:"Q10",id:0, answer:"Yes", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Please let us know about it.",hard_finish:"build"},
+		{_id:"Q10-A2",qId:"Q10",id:1, answer:"No", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"build"}
+	]}
+]});
+
+
+
+
+
+db.questions.insert({_id:"de", id:2, questions_array: [
+	{_id:"Q1",id:0, group:0, question:"Wo sind Sie?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>Über Ihr Geschäft</span> | Software-Nutzung | Kognitive Technologie", answers_array: [
+	    {_id:"Q1-A1", qId:"Q1",id:0, answer:"Afrika", blurb:{title:"",text:""}, average:false, icon:""},
+	    {_id:"Q1-A2", qId:"Q1",id:1, answer:"Asien / Pazifik", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A3", qId:"Q1",id:2, answer:"China", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A4", qId:"Q1",id:3, answer:"Europa", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A5", qId:"Q1",id:4, answer:"Japan", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A6", qId:"Q1",id:5, answer:"Lateinamerika", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A7", qId:"Q1",id:6, answer:"Mittlerer Osten", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A8", qId:"Q1",id:7, answer:"Nordamerika", blurb:{title:"", text:""}, average:false, icon:""}
+	]},
+
+	{_id:"Q2",id:1, group:1, question:"Zu welchem Industriezweig gehört Ihr Unternehmen?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>Über Ihr Geschäft</span> | Software-Nutzung | Kognitive Technologie", answers_array: [
+	    {_id:"Q2-A1",qId:"Q2",id:0, answer:"Automotive", blurb:{title:"",text:""},average:false,icon:"icons/q1/auto.png"},
+	    {_id:"Q2-A2",qId:"Q2",id:1, answer:"Kommunikation", blurb:{title:"",text:""},average:false,icon:"icons/q1/communication.png"},
+	    {_id:"Q2-A3",qId:"Q2",id:2, answer:"Konsumgüter", blurb:{title:"",text:""},average:false,icon:"icons/q1/consumer.png"},
+	    {_id:"Q2-A4",qId:"Q2",id:3, answer:"Bildung", blurb:{title:"",text:""},average:false,icon:"icons/q1/education.png"},
+	    {_id:"Q2-A5",qId:"Q2",id:4, answer:"Energie & Betriebsstoffe", blurb:{title:"",text:""},average:false,icon:"icons/q1/energy.png"},
+	    {_id:"Q2-A6",qId:"Q2",id:5, answer:"Finanzdienstleistungen", blurb:{title:"",text:""},average:false,icon:"icons/q1/financial.png"},
+	    {_id:"Q2-A7",qId:"Q2",id:6, answer:"Regierung", blurb:{title:"",text:""},average:false,icon:"icons/q1/goverment.png"},
+	    {_id:"Q2-A8",qId:"Q2",id:7, answer:"Gesundheitswesen", blurb:{title:"",text:""},average:false,icon:"icons/q1/healthcare.png"},
+	    {_id:"Q2-A9",qId:"Q2",id:8, answer:"Versicherungen", blurb:{title:"",text:""},average:false,icon:"icons/q1/insurance.png"},
+	    {_id:"Q2-A10",qId:"Q2",id:9, answer:"Produzierendes Gewerbe", blurb:{title:"",text:""},average:false,icon:"icons/q1/manufacturing.png"},
+	    {_id:"Q2-A11",qId:"Q2",id:10, answer:"Pharmazeutik", blurb:{title:"",text:""},average:false,icon:"icons/q1/pharmaceuticals.png"},
+	    {_id:"Q2-A12",qId:"Q2",id:11, answer:"Einzelhandel", blurb:{title:"",text:""},average:false,icon:"icons/q1/retail.png"},
+	    {_id:"Q2-A13",qId:"Q2",id:12, answer:"Reisen und Transport", blurb:{title:"",text:""},average:false,icon:"icons/q1/travel.png"},
+	    {_id:"Q2-A14",qId:"Q2",id:13, answer:"Andere", blurb:{title:"",text:""},average:false,icon:"icons/q1/other.png"}
+	]},
+
+	{_id:"Q3",id:2, group:2, question:"Welcher Titel kommt Ihrer derzeitigen Position am nächsten?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>Über Ihr Geschäft</span> | Software-Nutzung | Kognitive Technologie", answers_array: [
+	    {_id:"Q3-A1",qId:"Q3",id:0, answer:"Leiter Innovation", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A2",qId:"Q3",id:1, answer:"Betriebsleiter", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A3",qId:"Q3",id:2, answer:"Technischer Leiter", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A4",qId:"Q3",id:3, answer:"Andere Führungsposition", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A5",qId:"Q3",id:4, answer:"Business Analyst", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A6",qId:"Q3",id:5, answer:"Entwickler", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A7",qId:"Q3",id:6, answer:"IT Architekt", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A8",qId:"Q3",id:7, answer:"Prozessdesigner", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A9",qId:"Q3",id:8, answer:"Strategischer Leiter", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A10",qId:"Q3",id:9, answer:"Andere Fachfunktion", blurb:{title:"",text:""},average:false,icon:""}
+	]},
+
+	{_id:"Q4",id:3, group:3, question:"Wie viele Mitarbeiter hat Ihr Unternehmen?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>Über Ihr Geschäft</span> | Software-Nutzung | Kognitive Technologie", answers_array: [
+	    {_id:"Q4-A1",qId:"Q4",id:0, answer:"0-99", blurb:{title:"",text:""},average:false,icon:"icons/q3/0_99.png"},
+	    {_id:"Q4-A2",qId:"Q4",id:1, answer:"100-499", blurb:{title:"",text:""},average:false,icon:"icons/q3/100_499.png"},
+	    {_id:"Q4-A3",qId:"Q4",id:2, answer:"500-999", blurb:{title:"",text:""},average:false,icon:"icons/q3/500_999.png"},
+	    {_id:"Q4-A4",qId:"Q4",id:3, answer:"1.000+", blurb:{title:"",text:""},average:false,icon:"icons/q3/1000_.png"}
+	]},
+
+	{_id:"Q5",id:4, group:4, question:"Welche Software nutzen Sie in Ihrem Unternehmen?", answerPerRow:4, icons: true, selectedAnswerID: null,multiple: true, "multipleBlurb": "(Alle Zutreffenden auswählen)", guage:"Über Ihr Geschäft | <span class='active'>Software-Nutzung</span> | Kognitive Technologie", answers_array: [
+	    {_id:"Q5-A1",qId:"Q5",id:0, answer:"Management von Prozessen", blurb:{title:"",text:"Mit Hilfe von Prozess-Managementlösungen können Fachbereiche durch Dokumentation,  Automatisierung und Verwaltung von Geschäftsabläufen, ihre Effektivität steigern und Kosten reduzieren."},average:false,icon:"icons/q4/process.png", nextQuestion:5},
+	    {_id:"Q5-A2",qId:"Q5",id:1, answer:"Management von Entscheidungen", blurb:{title:"",text:"Mit Entscheidungsmanagement-Lösungen können Fachbereiche wiederholende Geschäftsregeln und Entscheidungen verwalten und automatisieren."},average:false,icon:"icons/q4/decision.png", nextQuestion:6},
+	    {_id:"Q5-A3",qId:"Q5",id:2, answer:"Kognitive Software", blurb:{title:"",text:"Eine Kategorie von Technologien, die natürliche Sprachverarbeitung und maschinelles Lernen verwendet, um es Menschen und Maschinen zu ermöglichen, natürlicher zu interagieren. Diese Technologien erweitern und vergrößern die menschliche Expertise und Wahrnehmung."},average:false,icon:"icons/q4/cognitive.png", nextQuestion:7},
+	    {_id:"Q5-A4",qId:"Q5",id:3, answer:"Keins davon", blurb:{title:"",text:""},average:false,icon:"icons/q4/none.png"}
+	]},
+
+	{_id:"Q5a0", id:5, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:0, answers_array: [
+	    {_id:"Q5a0-A1",qId:"Q5a0",id:0, answer:"IBM Business Process Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	    {_id:"Q5a0-A2",qId:"Q5a0",id:1, answer:"Andere Geschäftsprozess-Software", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a1", id:6, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:1, answers_array: [
+	    {_id:"Q5a1-A1",qId:"Q5a1",id:0, answer:"IBM Operational Decision Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	    {_id:"Q5a1-A2",qId:"Q5a1",id:1, answer:"Andere Software für Geschäftsregeln", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a2", id:7, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:2, answers_array: [
+	    {_id:"Q5a2-A1",qId:"Q5a2",id:0, answer:"IBM Watson", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:8},
+	    {_id:"Q5a2-A2",qId:"Q5a2",id:1, answer:"Andere kognitive Software", blurb:{title:"",text:""},average:false,icon:"",score:1, nextQuestion:8}
+	]},
+
+	{_id:"Q5a2a0", id:8, group:4, question:"Verwenden Sie IBM Watson oder andere kognitive Software zusammen mit Ihrer Prozess- oder Entscheidungstechnologie?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:7,upA:"0,1", answers_array: [
+	    {_id:"Q5a2a0-A1",qId:"Q5a2a0",id:0, answer:"Ja", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:9},
+	    {_id:"Q5a2a0-A2",qId:"Q5a2a0",id:1, answer:"Nein", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:10}
+	]},
+
+	{_id:"Q5a2a0a0", id:9, group:4, question:"In wie fern?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:8,upA:0, answers_array: [
+	    {_id:"Q5a2a0a0-A1",qId:"Q5a2a0a0",id:0, answer:"Für ausgewählte Projekte", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"},
+	    {_id:"Q5a2a0a0-A2",qId:"Q5a2a0a0",id:1, answer:"Unternehmensweit", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"}
+	]},
+
+	{_id:"Q6", id:10, group:5, question:"Wie vertraut sind Sie mit kognitiver Technologie?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"Über Ihr Geschäft | Software-Nutzung | <span class='active'>Kognitive Technologie</span>", answers_array: [
+	    {_id:"Q6-A1",qId:"Q6",id:0, answer:"Gar nicht", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,hard_finish:"learn"},
+	    {_id:"Q6-A2",qId:"Q6",id:1, answer:"Etwas", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1},
+	    {_id:"Q6-A3",qId:"Q6",id:2, answer:"Sehr", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1}
+	]},
+
+	{_id:"Q7", id:11, group:6, question:"In welchem Maß können kognitive Technologien Ihrer Meinung nach Ihren Geschäftsbetrieb verbessern?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"Über Ihr Geschäft | Software-Nutzung | <span class='active'>Kognitive Technologie</span>", answers_array: [
+	    {_id:"Q7-A4",qId:"Q7",id:0, answer:"Ich weiß nicht", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	    {_id:"Q7-A1",qId:"Q7",id:1, answer:"Gar nicht", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	    {_id:"Q7-A2",qId:"Q7",id:2, answer:"Etwas", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1,nextQuestion:13},
+	    {_id:"Q7-A3",qId:"Q7",id:3, answer:"Sehr viel", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1,nextQuestion:13}
+	]},
+
+	{_id:"Q8", id:12, group:7, question:"Was ist Ihrer Meinung nach das größte Hindernis für Sie, um kognitive Geschäftsabläufe anzuwenden?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, "multipleBlurb": "(Alle Zutreffenden auswählen)", guage:"Über Ihr Geschäft | Software-Nutzung | <span class='active'>Kognitive Technologie</span>", answers_array: [
+	    {_id:"Q8-A1",qId:"Q8",id:0, answer:"Mein Unternehmen ist zu klein, um diese Betriebsabläufe umzusetzen.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A2",qId:"Q8",id:1, answer:"Die Lösung ist zu teuer", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A3",qId:"Q8",id:2, answer:"Die Lösung ist zu neu, riskant und/oder noch nicht ausgereift.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A4",qId:"Q8",id:3, answer:"Ich will nicht, dass Roboter die Welt übernehmen.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A5",qId:"Q8",id:4, answer:"Entscheidungsträger oder Einflussnehmer in meinem Unternehmen unterstützen das nicht.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A6",qId:"Q8",id:5, answer:"Andere", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Tragen Sie Ihre eigene Antwort ein.",hard_finish:"learn"}
+	]},
+
+	{_id:"Q9", id:13, group:8, question:"Welche Ziele haben Sie hinsichtlich der Anwendung von kognitiven Technologien in Ihren Betriebsabläufen?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, "multipleBlurb": "(Alle Zutreffenden auswählen)", guage:"Über Ihr Geschäft | Software-Nutzung | <span class='active'>Kognitive Technologie</span>", answers_array: [
+	    {_id:"Q9-A1",qId:"Q9",id:0, answer:"Entwicklung zur Selbstbedienung der Kunden", blurb:{title:"",text:"Befähigen Sie intelligente Systeme dazu, Kunden zu bedienen und greifen Sie nur noch in Ausnahmefällen manuell ein."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A2",qId:"Q9",id:1, answer:"Aufwertung der Fähigkeiten meiner Mitarbeiter", blurb:{title:"",text:"Verbessern Sie die Fähigkeiten Ihrer Mitarbeiter durch die Verfügbarkeit von wertvollen Informationen an der richtigen Stelle."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A3",qId:"Q9",id:2, answer:"Automatisierung von Backoffice-Funktionen", blurb:{title:"",text:"Adaptive Automation, die den Arbeitsfluss mit Geschäftsregeln kombiniert."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A4",qId:"Q9",id:3, answer:"Nutzung und Einsatz von „verdeckten Daten“ (wie Videos, Daten aus sozialen Netzwerken)", blurb:{title:"",text:"Verwendung von kognitiven Zusammenhängen zur Enthüllung von Trends aus zuvor unzugänglichen Daten."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A5",qId:"Q9",id:4, answer:"Ich weiß nicht", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"learn"},
+	    {_id:"Q9-A6",qId:"Q9",id:5, answer:"Andere", blurb:{title:"",text:""},with_input:true,with_input_placeholder:"Tragen Sie Ihre eigene Antwort ein.",average:false,icon:"",score:1,nextQuestion:14}
+	]},
+
+	{_id:"Q10", id:14, group:9, question:"Haben Sie in Ihrem Unternehmen bereits einen Anwendungsfall zur Umsetzung mit kognitiver Technologie?", answerPerRow:1, icons: false, selectedAnswerID: null, guage:"Über Ihr Geschäft | Software-Nutzung | <span class='active'>Kognitive Technologie</span>", answers_array: [
+	    {_id:"Q10-A1",qId:"Q10",id:0, answer:"Ja", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Sprechen Sie mit uns darüber.",hard_finish:"build"},
+	    {_id:"Q10-A2",qId:"Q10",id:1, answer:"Nein", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"build"}
+	]}
+]});
+
+
+
+
+
+db.questions.insert({_id:"fr", id:3, questions_array: [
+	{_id:"Q1",id:0, group:0, question:"Quelle est votre position géographique?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>À propos de votre activité</span> | Utilisation de logiciels | Technologie cognitive", answers_array: [
+	    {_id:"Q1-A1", qId:"Q1",id:0, answer:"Afrique", blurb:{title:"",text:""}, average:false, icon:""},
+	    {_id:"Q1-A2", qId:"Q1",id:1, answer:"Asie-Pacifique", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A3", qId:"Q1",id:2, answer:"Chine", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A4", qId:"Q1",id:3, answer:"Europe", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A5", qId:"Q1",id:4, answer:"Japon", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A6", qId:"Q1",id:5, answer:"Amérique Latine", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A7", qId:"Q1",id:6, answer:"Moyen-Orient", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A8", qId:"Q1",id:7, answer:"Amérique du Nord", blurb:{title:"", text:""}, average:false, icon:""}
+	]},
+
+	{_id:"Q2",id:1, group:1, question:"Dans quel secteur œuvre votre entreprise?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>À propos de votre activité</span> | Utilisation de logiciels | Technologie cognitive", answers_array: [
+	    {_id:"Q2-A1",qId:"Q2",id:0, answer:"Automobile", blurb:{title:"",text:""},average:false,icon:"icons/q1/auto.png"},
+	    {_id:"Q2-A2",qId:"Q2",id:1, answer:"Communications", blurb:{title:"",text:""},average:false,icon:"icons/q1/communication.png"},
+	    {_id:"Q2-A3",qId:"Q2",id:2, answer:"Distribution", blurb:{title:"",text:""},average:false,icon:"icons/q1/consumer.png"},
+	    {_id:"Q2-A4",qId:"Q2",id:3, answer:"Éducation", blurb:{title:"",text:""},average:false,icon:"icons/q1/education.png"},
+	    {_id:"Q2-A5",qId:"Q2",id:4, answer:"Énergie et environnement", blurb:{title:"",text:""},average:false,icon:"icons/q1/energy.png"},
+	    {_id:"Q2-A6",qId:"Q2",id:5, answer:"Services financiers", blurb:{title:"",text:""},average:false,icon:"icons/q1/financial.png"},
+	    {_id:"Q2-A7",qId:"Q2",id:6, answer:"Gouvernement", blurb:{title:"",text:""},average:false,icon:"icons/q1/goverment.png"},
+	    {_id:"Q2-A8",qId:"Q2",id:7, answer:"Santé", blurb:{title:"",text:""},average:false,icon:"icons/q1/healthcare.png"},
+	    {_id:"Q2-A9",qId:"Q2",id:8, answer:"Assurance", blurb:{title:"",text:""},average:false,icon:"icons/q1/insurance.png"},
+	    {_id:"Q2-A10",qId:"Q2",id:9, answer:"Production industrielle", blurb:{title:"",text:""},average:false,icon:"icons/q1/manufacturing.png"},
+	    {_id:"Q2-A11",qId:"Q2",id:10, answer:"Produits pharmaceutiques", blurb:{title:"",text:""},average:false,icon:"icons/q1/pharmaceuticals.png"},
+	    {_id:"Q2-A12",qId:"Q2",id:11, answer:"Commerce de détail", blurb:{title:"",text:""},average:false,icon:"icons/q1/retail.png"},
+	    {_id:"Q2-A13",qId:"Q2",id:12, answer:"Transport et Tourisme", blurb:{title:"",text:""},average:false,icon:"icons/q1/travel.png"},
+	    {_id:"Q2-A14",qId:"Q2",id:13, answer:"Autre", blurb:{title:"",text:""},average:false,icon:"icons/q1/other.png"}
+	]},
+
+	{_id:"Q3",id:2, group:2, question:"Quel poste décrirait le mieux votre rôle actuel?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>À propos de votre activité</span> | Utilisation de logiciels | Technologie cognitive", answers_array: [
+	    {_id:"Q3-A1",qId:"Q3",id:0, answer:"Directeur / Responsable de l'innovation", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A2",qId:"Q3",id:1, answer:"Directeur / Responsable des opérations", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A3",qId:"Q3",id:2, answer:"Directeur technique", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A4",qId:"Q3",id:3, answer:"Autre cadre", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A5",qId:"Q3",id:4, answer:"Directeur Fonctionnel", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A6",qId:"Q3",id:5, answer:"Développeur", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A7",qId:"Q3",id:6, answer:"Architecte informatique", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A8",qId:"Q3",id:7, answer:"Concepteur de processus", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A9",qId:"Q3",id:8, answer:"Directeur de la stratégie", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A10",qId:"Q3",id:9, answer:"Autre professionnel", blurb:{title:"",text:""},average:false,icon:""}
+	]},
+
+	{_id:"Q4",id:3, group:3, question:"Combien d'employé(e)s compte votre entreprise?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>À propos de votre activité</span> | Utilisation de logiciels | Technologie cognitive", answers_array: [
+	    {_id:"Q4-A1",qId:"Q4",id:0, answer:"0-99", blurb:{title:"",text:""},average:false,icon:"icons/q3/0_99.png"},
+	    {_id:"Q4-A2",qId:"Q4",id:1, answer:"100-499", blurb:{title:"",text:""},average:false,icon:"icons/q3/100_499.png"},
+	    {_id:"Q4-A3",qId:"Q4",id:2, answer:"500-999", blurb:{title:"",text:""},average:false,icon:"icons/q3/500_999.png"},
+	    {_id:"Q4-A4",qId:"Q4",id:3, answer:"Plus de 1000", blurb:{title:"",text:""},average:false,icon:"icons/q3/1000_.png"}
+	]},
+
+	{_id:"Q5",id:4, group:4, question:"Quel(s) type(s) de logiciel votre entreprise utilise-t-elle?", answerPerRow:4, icons: true, selectedAnswerID: null,multiple: true, "multipleBlurb":"(Cocher les cases appropriées)", guage:"À propos de votre activité | <span class='active'>Utilisation de logiciel</span> | Technologie cognitive", answers_array: [
+	    {_id:"Q5-A1",qId:"Q5",id:0, answer:"Gestion de processus", blurb:{title:"",text:"Les solutions de gestion de processus permettent aux professionnels de constamment renseigner, automatiser, gérer et améliorer les processus de l'activité pour augmenter leur efficacité et réduire leurs coûts."},average:false,icon:"icons/q4/process.png", nextQuestion:5},
+	    {_id:"Q5-A2",qId:"Q5",id:1, answer:"Gestion de décisions", blurb:{title:"",text:"Les solutions de gestion de décisions permettent aux professionnels de gérer et d'automatiser les règles commerciales, événements et décisions d'exploitation répétables qui ont un impact sur le rendement de l'activité."},average:false,icon:"icons/q4/decision.png", nextQuestion:6},
+	    {_id:"Q5-A3",qId:"Q5",id:2, answer:"Logiciel cognitif", blurb:{title:"",text:"C'est une catégorie de technologies qui combine le traitement de langage naturel et l'apprentissage automatique dans l'optique de rendre l'interaction homme-machine plus naturelle. Ces technologies étendent et renforcent l'expertise et les capacités cognitives de l'humain."},average:false,icon:"icons/q4/cognitive.png", nextQuestion:7},
+	    {_id:"Q5-A4",qId:"Q5",id:3, answer:"Aucune de ces réponses", blurb:{title:"",text:""},average:false,icon:"icons/q4/none.png"}
+	]},
+
+	{_id:"Q5a0", id:5, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:0, answers_array: [
+	    {_id:"Q5a0-A1",qId:"Q5a0",id:0, answer:"IBM Business Process Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	    {_id:"Q5a0-A2",qId:"Q5a0",id:1, answer:"Autre logiciel de gestion des processus métiers", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a1", id:6, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:1, answers_array: [
+	    {_id:"Q5a1-A1",qId:"Q5a1",id:0, answer:"IBM Operational Decision Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	    {_id:"Q5a1-A2",qId:"Q5a1",id:1, answer:"Autre logiciel de gestion des règles métiers", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a2", id:7, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:2, answers_array: [
+	    {_id:"Q5a2-A1",qId:"Q5a2",id:0, answer:"IBM Watson", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:8},
+	    {_id:"Q5a2-A2",qId:"Q5a2",id:1, answer:"Autre logiciel cognitif", blurb:{title:"",text:""},average:false,icon:"",score:1, nextQuestion:8}
+	]},
+
+	{_id:"Q5a2a0", id:8, group:4, question:"Utilisez-vous IBM Watson ou un autre logiciel cognitif parallèlement à vos technologies de processus ou de décisions?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:7,upA:"0,1", answers_array: [
+	    {_id:"Q5a2a0-A1",qId:"Q5a2a0",id:0, answer:"Oui", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:9},
+	    {_id:"Q5a2a0-A2",qId:"Q5a2a0",id:1, answer:"Non", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:10}
+	]},
+
+	{_id:"Q5a2a0a0", id:9, group:4, question:"Dans quelle mesure?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:8,upA:0, answers_array: [
+	    {_id:"Q5a2a0a0-A1",qId:"Q5a2a0a0",id:0, answer:"Pour des projets précis", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"},
+	    {_id:"Q5a2a0a0-A2",qId:"Q5a2a0a0",id:1, answer:"Pour toute l'entreprise", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"}
+	]},
+
+	{_id:"Q6", id:10, group:5, question:"Êtes-vous à l'aise avec les technologies cognitives?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"À propos de votre activité | Utilisation de logiciels | <span class='active'>Technologie cognitive</span>", answers_array: [
+	    {_id:"Q6-A1",qId:"Q6",id:0, answer:"Pas du tout", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,hard_finish:"learn"},
+	    {_id:"Q6-A2",qId:"Q6",id:1, answer:"Un peu", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1},
+	    {_id:"Q6-A3",qId:"Q6",id:2, answer:"Totalement", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1}
+	]},
+
+	{_id:"Q7", id:11, group:6, question:"Selon vous, dans quelle mesure les technologies cognitives peuvent-elles améliorer vos activités commerciales?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"À propos de votre activité | Utilisation de logiciels | <span class='active'>Technologie cognitive</span>", answers_array: [
+	    {_id:"Q7-A4",qId:"Q7",id:0, answer:"Je l'ignore", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	    {_id:"Q7-A1",qId:"Q7",id:1, answer:"Pas du tout", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	    {_id:"Q7-A2",qId:"Q7",id:2, answer:"Un peu", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1,nextQuestion:13},
+	    {_id:"Q7-A3",qId:"Q7",id:3, answer:"Énormément", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1,nextQuestion:13}
+	]},
+
+	{_id:"Q8", id:12, group:7, question:"Selon vous, quel serait le plus gros frein à l'adoption des opérations cognitives dans votre entreprise?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, multipleBlurb:"(Cocher les cases appropriées)", guage:"À propos de votre activité | Utilisation de logiciels | <span class='active'>Technologie cognitive</span>", answers_array: [
+	    {_id:"Q8-A1",qId:"Q8",id:0, answer:"Mon entreprise est trop petite pour mettre en œuvre ce type d'exploitation.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A2",qId:"Q8",id:1, answer:"La solution est trop chère.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A3",qId:"Q8",id:2, answer:"La solution est trop récente, risquée et/ou sous-développée.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A4",qId:"Q8",id:3, answer:"Je ne veux pas d'un monde dirigé par des robots.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A5",qId:"Q8",id:4, answer:"Les responsables ou personnes influentes de mon entreprise ne soutiendront pas le projet.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A6",qId:"Q8",id:5, answer:"Autre", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Écrivez votre propre réponse ici",hard_finish:"learn"}
+	]},
+
+	{_id:"Q9", id:13, group:8, question:"À quelle(s) fin(s) aimeriez-vous utiliser les technologies cognitives dans vos activités commerciales?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, multipleBlurb:"(Cocher les cases appropriées)", guage:"À propos de votre activité | Utilisation de logiciels | <span class='active'>Technologie cognitive</span>", answers_array: [
+	    {_id:"Q9-A1",qId:"Q9",id:0, answer:"Faire évoluer le libre-service des clients", blurb:{title:"",text:"Permettre aux systèmes intelligents de servir le client tout en réduisant au mieux la gestion manuelle d'exceptions de service."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A2",qId:"Q9",id:1, answer:"Renforcer les capacités des employés compétents", blurb:{title:"",text:"Améliorer les compétences des employés avec des informations utiles au moment opportun."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A3",qId:"Q9",id:2, answer:"Automatiser les fonctions de back office", blurb:{title:"",text:"Automatiser de manière adaptative et équilibrée l'exploitation avec le flux de travail et les règles commerciales."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A4",qId:"Q9",id:3, answer:"Consommer et tirer parti de données non structurées dite \"dark data\" (vidéos, sociales, etc.)", blurb:{title:"",text:"Utiliser la compréhension cognitive pour repérer des tendances dans des données auparavant illisibles."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A5",qId:"Q9",id:4, answer:"Je l'ignore", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"learn"},
+	    {_id:"Q9-A6",qId:"Q9",id:5, answer:"Autre", blurb:{title:"",text:""},with_input:true,with_input_placeholder:"Écrivez votre propre réponse ici",average:false,icon:"",score:1,nextQuestion:14}
+	]},
+
+	{_id:"Q10", id:14, group:9, question:"Avez-vous déjà en tête un cas d'usage de mise en œuvre des technologies cognitives?", answerPerRow:1, icons: false, selectedAnswerID: null, guage:"À propos de votre activité | Utilisation de logiciels | <span class='active'>Technologie cognitive</span>", answers_array: [
+	    {_id:"Q10-A1",qId:"Q10",id:0, answer:"Oui", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Veuillez développer.",hard_finish:"build"},
+	    {_id:"Q10-A2",qId:"Q10",id:1, answer:"Non", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"build"}
+	]}
+]});
+
+
+
+
+
+db.questions.insert({_id:"ko", id:4, questions_array: [
+	{_id:"Q1",id:0, group:0, question:"어느 지역에 계십니까?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+		{_id:"Q1-A1", qId:"Q1",id:0, answer:"아프리카", blurb:{title:"",text:""}, average:false, icon:""},
+		{_id:"Q1-A2", qId:"Q1",id:1, answer:"아시아 태평양", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A3", qId:"Q1",id:2, answer:"중국", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A4", qId:"Q1",id:3, answer:"유럽", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A5", qId:"Q1",id:4, answer:"일본", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A6", qId:"Q1",id:5, answer:"남아메리카", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A7", qId:"Q1",id:6, answer:"중동", blurb:{title:"", text:""}, average:false, icon:""},
+		{_id:"Q1-A8", qId:"Q1",id:7, answer:"북아메리카", blurb:{title:"", text:""}, average:false, icon:""}
+	]},
+
+	{_id:"Q2",id:1, group:1, question:"귀사는 어떤 산업군에 속해 있습니까?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+		{_id:"Q2-A1",qId:"Q2",id:0, answer:"자동차", blurb:{title:"",text:""},average:false,icon:"icons/q1/auto.png"},
+		{_id:"Q2-A2",qId:"Q2",id:1, answer:"통신", blurb:{title:"",text:""},average:false,icon:"icons/q1/communication.png"},
+		{_id:"Q2-A3",qId:"Q2",id:2, answer:"일반 소비재", blurb:{title:"",text:""},average:false,icon:"icons/q1/consumer.png"},
+		{_id:"Q2-A4",qId:"Q2",id:3, answer:"교육", blurb:{title:"",text:""},average:false,icon:"icons/q1/education.png"},
+		{_id:"Q2-A5",qId:"Q2",id:4, answer:"에너지 및 유틸리티", blurb:{title:"",text:""},average:false,icon:"icons/q1/energy.png"},
+		{_id:"Q2-A6",qId:"Q2",id:5, answer:"금융 서비스", blurb:{title:"",text:""},average:false,icon:"icons/q1/financial.png"},
+		{_id:"Q2-A7",qId:"Q2",id:6, answer:"정부", blurb:{title:"",text:""},average:false,icon:"icons/q1/goverment.png"},
+		{_id:"Q2-A8",qId:"Q2",id:7, answer:"의료", blurb:{title:"",text:""},average:false,icon:"icons/q1/healthcare.png"},
+		{_id:"Q2-A9",qId:"Q2",id:8, answer:"보험", blurb:{title:"",text:""},average:false,icon:"icons/q1/insurance.png"},
+		{_id:"Q2-A10",qId:"Q2",id:9, answer:"제조", blurb:{title:"",text:""},average:false,icon:"icons/q1/manufacturing.png"},
+		{_id:"Q2-A11",qId:"Q2",id:10, answer:"의약", blurb:{title:"",text:""},average:false,icon:"icons/q1/pharmaceuticals.png"},
+		{_id:"Q2-A12",qId:"Q2",id:11, answer:"소매", blurb:{title:"",text:""},average:false,icon:"icons/q1/retail.png"},
+		{_id:"Q2-A13",qId:"Q2",id:12, answer:"여행", blurb:{title:"",text:""},average:false,icon:"icons/q1/travel.png"},
+		{_id:"Q2-A14",qId:"Q2",id:13, answer:"기타", blurb:{title:"",text:""},average:false,icon:"icons/q1/other.png"}
+	]},
+
+	{_id:"Q3",id:2, group:2, question:"어떤 역할을 담당하고 계십니까? (딱 맞는 역할이 없다면 가장 비슷한 역할을 선택하십시오)", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+		{_id:"Q3-A1",qId:"Q3",id:0, answer:"CIO (최고혁신책임자)", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A2",qId:"Q3",id:1, answer:"COO (최고운영책임자)", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A3",qId:"Q3",id:2, answer:"CTO(최고기술책임자)", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A4",qId:"Q3",id:3, answer:"기타 경영진 및 임원", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A5",qId:"Q3",id:4, answer:"비즈니스 분석가", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A6",qId:"Q3",id:5, answer:"개발자", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A7",qId:"Q3",id:6, answer:"IT 아키텍트", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A8",qId:"Q3",id:7, answer:"프로세스 설계자", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A9",qId:"Q3",id:8, answer:"전략 및 기획 담당자", blurb:{title:"",text:""},average:false,icon:""},
+		{_id:"Q3-A10",qId:"Q3",id:9, answer:"기타 (업무 전문가)", blurb:{title:"",text:""},average:false,icon:""}
+	]},
+
+	{_id:"Q4",id:3, group:3, question:"귀사의 직원은 몇 명입니까?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+		{_id:"Q4-A1",qId:"Q4",id:0, answer:"0~99명", blurb:{title:"",text:""},average:false,icon:"icons/q3/0_99.png"},
+		{_id:"Q4-A2",qId:"Q4",id:1, answer:"100~499명", blurb:{title:"",text:""},average:false,icon:"icons/q3/100_499.png"},
+		{_id:"Q4-A3",qId:"Q4",id:2, answer:"500~999명", blurb:{title:"",text:""},average:false,icon:"icons/q3/500_999.png"},
+		{_id:"Q4-A4",qId:"Q4",id:3, answer:"1,000명 이상", blurb:{title:"",text:""},average:false,icon:"icons/q3/1000_.png"}
+	]},
+
+	{_id:"Q5",id:4, group:4, question:"어떤 소프트웨어를 사용하고 계십니까? (복수 선택 가능)", answerPerRow:4, icons: true, selectedAnswerID: null,multiple: true, guage:"About Your Business | <span class='active'>Software Usage</span> | Cognitive Technology", answers_array: [
+		{_id:"Q5-A1",qId:"Q5",id:0, answer:"비즈니스 프로세스 관리", blurb:{title:"",text:"비즈니스 프로세스 관리 솔루션은 업무 전문가들이 효율성을 극대화하고 비용을 최소화하기 위해 비즈니스 프로세스를 문서화, 자동화, 관리 및 지속적으로 개선할 수 있게 해줍니다."},average:false,icon:"icons/q4/process.png", nextQuestion:5},
+		{_id:"Q5-A2",qId:"Q5",id:1, answer:"업무적 의사결정 관리", blurb:{title:"",text:"업무적 의사결정 관리 솔루션은 업무 전문가들이 수익을 극대화할 수 있도록, 반복 가능한 비즈니스 룰, 이벤트 및 업무적 의사결정을 관리하고 자동화할 수 있게 해줍니다."},average:false,icon:"icons/q4/decision.png", nextQuestion:6},
+		{_id:"Q5-A3",qId:"Q5",id:2, answer:"코그너티브 소프트웨어", blurb:{title:"",text:"사람과 머신이 자연스럽게 상호작용할 수 있도록, 머신에서 자연어 처리 및 학습을 가능하게 하는 기술을 의미합니다. 이를 통해 인간의 전문지식과 인지 컴퓨팅 능력을 극대화합니다."},average:false,icon:"icons/q4/cognitive.png", nextQuestion:7},
+		{_id:"Q5-A4",qId:"Q5",id:3, answer:"해당 사항 없음 ", blurb:{title:"",text:""},average:false,icon:"icons/q4/none.png"}
+	]},
+
+	{_id:"Q5a0", id:5, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:0, answers_array: [
+		{_id:"Q5a0-A1",qId:"Q5a0",id:0, answer:"IBM Business Process Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+		{_id:"Q5a0-A2",qId:"Q5a0",id:1, answer:"타사 BPM 솔루션", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a1", id:6, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:1, answers_array: [
+		{_id:"Q5a1-A1",qId:"Q5a1",id:0, answer:"IBM Operational Decision Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+		{_id:"Q5a1-A2",qId:"Q5a1",id:1, answer:"타사 비즈니스 룰 솔루션", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+
+	{_id:"Q5a2", id:7, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:2, answers_array: [
+		{_id:"Q5a2-A1",qId:"Q5a2",id:0, answer:"IBM Watson", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:8},
+		{_id:"Q5a2-A2",qId:"Q5a2",id:1, answer:"타사 코그너티브 솔루션", blurb:{title:"",text:""},average:false,icon:"",score:1, nextQuestion:8}
+	]},
+
+	{_id:"Q5a2a0", id:8, group:4, question:"귀사가 사용하는 IBM Watson 또는 타사 코그너티브 솔루션은 귀사의 프로세스 또는 의사결정 기술과 연계되어 있습니까?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:7,upA:"0,1", answers_array: [
+		{_id:"Q5a2a0-A1",qId:"Q5a2a0",id:0, answer:"예", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:9},
+		{_id:"Q5a2a0-A2",qId:"Q5a2a0",id:1, answer:"아니요", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:10}
+	]},
+
+	{_id:"Q5a2a0a0", id:9, group:4, question:"어느 정도로 활용되고 있습니까?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:8,upA:0, answers_array: [
+		{_id:"Q5a2a0a0-A1",qId:"Q5a2a0a0",id:0, answer:"단위 프로젝트", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"},
+		{_id:"Q5a2a0a0-A2",qId:"Q5a2a0a0",id:1, answer:"전사적 적용", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"}
+	]},
+
+	{_id:"Q6", id:10, group:5, question:"귀하는 코그너티브 기술에 대해 얼마나 알고 계십니까?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q6-A1",qId:"Q6",id:0, answer:"전혀 모른다", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,hard_finish:"learn"},
+		{_id:"Q6-A2",qId:"Q6",id:1, answer:"약간 알고 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1},
+		{_id:"Q6-A3",qId:"Q6",id:2, answer:"잘 알고 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1}
+	]},
+
+	{_id:"Q7", id:11, group:6, question:"귀하는 코그너티브 기술이 얼마나 귀사의 비즈니스 업무 방식을 개선할 수 있다고 생각하십니까?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q7-A4",qId:"Q7",id:0, answer:"잘 모른다", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+		{_id:"Q7-A1",qId:"Q7",id:1, answer:"전혀 개선할 수 없다", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+		{_id:"Q7-A2",qId:"Q7",id:2, answer:"약간 개선할 수 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1,nextQuestion:13},
+		{_id:"Q7-A3",qId:"Q7",id:3, answer:"많이 개선할 수 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1,nextQuestion:13}
+	]},
+
+	{_id:"Q8", id:12, group:7, question:"코그너티브 비즈니스 오퍼레이션을 귀사에 적용하고자 한다면, 어떤 영역이 극복해야 할 과제라고 생각하십니까? (복수 선택 가능)", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q8-A1",qId:"Q8",id:0, answer:"회사 규모가 너무 작아서 적용할 수 없다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A2",qId:"Q8",id:1, answer:"솔루션이 너무 비싸다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A3",qId:"Q8",id:2, answer:"솔루션이 너무 새롭고, 위험하며, 아직 개발이 덜 되어 있는 것 같다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A4",qId:"Q8",id:3, answer:"나는 로봇이 세상을 지배하는 것을 원하지 않는다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A5",qId:"Q8",id:4, answer:"우리 회사의 의사결정권자나 다른 고위 임원들이 지지하지 않을 것이다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+		{_id:"Q8-A6",qId:"Q8",id:5, answer:"기타", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"본인의 생각을 기재해 주십시오",hard_finish:"learn"}
+	]},
+
+	{_id:"Q9", id:13, group:8, question:"귀사의 비즈니스에 코그너티브 기술을 적용하고자 하는 목적은 무엇입니까? (복수 선택 가능)", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q9-A1",qId:"Q9",id:0, answer:"고객 서비스 강화", blurb:{title:"",text:"예외 사항에 대한 수작업 취급을 최소화하여, 지능화된 시스템들이 고객들을 응대"},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A2",qId:"Q9",id:1, answer:"업무 전문가들의 능력 향상", blurb:{title:"",text:"적절한 시기에 적절한 조치를 취하여 직원 기술 향상"},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A3",qId:"Q9",id:2, answer:"백오피스 기능 자동화", blurb:{title:"",text:"워크플로우와 비즈니스 룰을 결합하여 프로세스 자동화 "},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A4",qId:"Q9",id:3, answer:"구조화되지 않은 다크 데이터(비디오, 소셜 등) 활용", blurb:{title:"",text:"과거에 접근할 수 없었던 데이터로부터 트렌드를 파악하기 위해 코그너티브 기술 활용"},average:false,icon:"",score:1,nextQuestion:14},
+		{_id:"Q9-A5",qId:"Q9",id:4, answer:"잘 모름", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"learn"},
+		{_id:"Q9-A6",qId:"Q9",id:5, answer:"기타", blurb:{title:"",text:""},with_input:true,with_input_placeholder:"본인의 생각을 기재해 주십시오",average:false,icon:"",score:1,nextQuestion:14}
+	]},
+
+	{_id:"Q10", id:14, group:9, question:"코그너티브 기술을 활용하고자 하는 적용 시나리오(Use Case)가 있습니까?", answerPerRow:1, icons: false, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+		{_id:"Q10-A1",qId:"Q10",id:0, answer:"예", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"그것에 대해 알려 주십시오",hard_finish:"build"},
+		{_id:"Q10-A2",qId:"Q10",id:1, answer:"아니요", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"build"}
+	]}
+]});
+
+
+db.questions.insert({_id:"es", id:5, questions_array: [
+	{_id:"Q1",id:0, group:0, question:"¿En dónde se encuentra?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>Acerca de su empresa</span> | Uso de software | Tecnología cognitiva", answers_array: [
+	    {_id:"Q1-A1", qId:"Q1",id:0, answer:"África", blurb:{title:"",text:""}, average:false, icon:""},
+	    {_id:"Q1-A2", qId:"Q1",id:1, answer:"Región Asia-Pacífico", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A3", qId:"Q1",id:2, answer:"China", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A4", qId:"Q1",id:3, answer:"Europa", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A5", qId:"Q1",id:4, answer:"Japón", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A6", qId:"Q1",id:5, answer:"América Latina", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A7", qId:"Q1",id:6, answer:"Oriente Medio", blurb:{title:"", text:""}, average:false, icon:""},
+	    {_id:"Q1-A8", qId:"Q1",id:7, answer:"América del Norte", blurb:{title:"", text:""}, average:false, icon:""},
+	]},
+	{_id:"Q2",id:1, group:1, question:"¿Cuál es la industria de su compañía?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>Acerca de su empresa</span> | Uso de software | Tecnología cognitiva", answers_array: [
+	    {_id:"Q2-A1",qId:"Q2",id:0, answer:"Automoción", blurb:{title:"",text:""},average:false,icon:"icons/q1/auto.png"},
+	    {_id:"Q2-A2",qId:"Q2",id:1, answer:"Comunicaciones", blurb:{title:"",text:""},average:false,icon:"icons/q1/communication.png"},
+	    {_id:"Q2-A3",qId:"Q2",id:2, answer:"Productos para el consumidor", blurb:{title:"",text:""},average:false,icon:"icons/q1/consumer.png"},
+	    {_id:"Q2-A4",qId:"Q2",id:3, answer:"Educación", blurb:{title:"",text:""},average:false,icon:"icons/q1/education.png"},
+	    {_id:"Q2-A5",qId:"Q2",id:4, answer:"Energía y servicios públicos", blurb:{title:"",text:""},average:false,icon:"icons/q1/energy.png"},
+	    {_id:"Q2-A6",qId:"Q2",id:5, answer:"Servicios financieros", blurb:{title:"",text:""},average:false,icon:"icons/q1/financial.png"},
+	    {_id:"Q2-A7",qId:"Q2",id:6, answer:"Gobierno", blurb:{title:"",text:""},average:false,icon:"icons/q1/goverment.png"},
+	    {_id:"Q2-A8",qId:"Q2",id:7, answer:"Atención médica", blurb:{title:"",text:""},average:false,icon:"icons/q1/healthcare.png"},
+	    {_id:"Q2-A9",qId:"Q2",id:8, answer:"Seguro", blurb:{title:"",text:""},average:false,icon:"icons/q1/insurance.png"},
+	    {_id:"Q2-A10",qId:"Q2",id:9, answer:"Fabricación", blurb:{title:"",text:""},average:false,icon:"icons/q1/manufacturing.png"},
+	    {_id:"Q2-A11",qId:"Q2",id:10, answer:"Farmacéutica", blurb:{title:"",text:""},average:false,icon:"icons/q1/pharmaceuticals.png"},
+	    {_id:"Q2-A12",qId:"Q2",id:11, answer:"Venta al por menor", blurb:{title:"",text:""},average:false,icon:"icons/q1/retail.png"},
+	    {_id:"Q2-A13",qId:"Q2",id:12, answer:"Viajes y transportes", blurb:{title:"",text:""},average:false,icon:"icons/q1/travel.png"},
+	    {_id:"Q2-A14",qId:"Q2",id:13, answer:"Otro", blurb:{title:"",text:""},average:false,icon:"icons/q1/other.png"}
+	]},
+	{_id:"Q3",id:2, group:2, question:"¿Qué puesto coincide mejor con su rol actual?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>Acerca de su empresa</span> | Uso de software | Tecnología cognitiva", answers_array: [
+	    {_id:"Q3-A1",qId:"Q3",id:0, answer:"Director de innovación", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A2",qId:"Q3",id:1, answer:"Director de operaciones", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A3",qId:"Q3",id:2, answer:"Director de tecnología", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A4",qId:"Q3",id:3, answer:"Director ejecutivo de otro tipo", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A5",qId:"Q3",id:4, answer:"Analista de negocios", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A6",qId:"Q3",id:5, answer:"Desarrollador", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A7",qId:"Q3",id:6, answer:"Arquitecto de TI", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A8",qId:"Q3",id:7, answer:"Diseñador de procesos", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A9",qId:"Q3",id:8, answer:"Gerente de estrategia", blurb:{title:"",text:""},average:false,icon:""},
+	    {_id:"Q3-A10",qId:"Q3",id:9, answer:"Otro profesional", blurb:{title:"",text:""},average:false,icon:""}
+	]},
+	{_id:"Q4",id:3, group:3, question:"¿Cuántos empleados tiene su empresa?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>Acerca de su empresa</span> | Uso de software | Tecnología cognitiva", answers_array: [
+	    {_id:"Q4-A1",qId:"Q4",id:0, answer:"0-99", blurb:{title:"",text:""},average:false,icon:"icons/q3/0_99.png"},
+	    {_id:"Q4-A2",qId:"Q4",id:1, answer:"100-499", blurb:{title:"",text:""},average:false,icon:"icons/q3/100_499.png"},
+	    {_id:"Q4-A3",qId:"Q4",id:2, answer:"500-999", blurb:{title:"",text:""},average:false,icon:"icons/q3/500_999.png"},
+	    {_id:"Q4-A4",qId:"Q4",id:3, answer:"Más de 1000", blurb:{title:"",text:""},average:false,icon:"icons/q3/1000_.png"}
+	]},
+	{_id:"Q5",id:4, group:4, question:"¿Qué tipo de software utiliza su empresa?", answerPerRow:4, icons: true, selectedAnswerID: null,multiple: true, "multipleBlurb":"Seleccione todo lo que corresponda", guage:"Acerca de su empresa | <span class='active'>Uso de software</span> | Tecnología cognitiva", answers_array: [
+	    {_id:"Q5-A1",qId:"Q5",id:0, answer:"Gestión de procesos", blurb:{title:"",text:"Las soluciones de gestión de procesos les permiten a los profesionales empresariales documentar, automatizar, gestionar y mejorar continuamente los procesos empresariales para aumentar la eficiencia y reducir los costes."},average:false,icon:"icons/q4/process.png", nextQuestion:5},
+	    {_id:"Q5-A2",qId:"Q5",id:1, answer:"Gestión de decisiones", blurb:{title:"",text:"Las soluciones de gestión de decisiones les permiten a los profesionales empresariales gestionar y automatizar eventos, decisiones operativas y reglas de negocios que se repiten e impactan en el rendimiento de la empresa."},average:false,icon:"icons/q4/decision.png", nextQuestion:6},
+	    {_id:"Q5-A3",qId:"Q5",id:2, answer:"Software cognitivo", blurb:{title:"",text:"Una categoría de tecnologías que usa el procesamiento de lenguajes naturales y aprendizaje automático para que las personas y las máquinas interactúen de manera más natural. Estas tecnologías incrementan y magnifican la experiencia y la cognición humana."},average:false,icon:"icons/q4/cognitive.png", nextQuestion:7},
+	    {_id:"Q5-A4",qId:"Q5",id:3, answer:"Ninguno de estos", blurb:{title:"",text:""},average:false,icon:"icons/q4/none.png"},
+	]},
+	{_id:"Q5a0", id:5, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:0, answers_array: [
+	    {_id:"Q5a0-A1",qId:"Q5a0",id:0, answer:"Gerente de procesos empresariales de IBM", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	    {_id:"Q5a0-A2",qId:"Q5a0",id:1, answer:"Software de procesos empresariales de otro tipo", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+	{_id:"Q5a1", id:6, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:1, answers_array: [
+	    {_id:"Q5a1-A1",qId:"Q5a1",id:0, answer:"Gerente de decisiones operativas de IBM", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	    {_id:"Q5a1-A2",qId:"Q5a1",id:1, answer:"Software de reglas empresariales de otro tipo", blurb:{title:"",text:""},average:false,icon:"",score:1}
+	]},
+	{_id:"Q5a2", id:7, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:2, answers_array: [
+	    {_id:"Q5a2-A1",qId:"Q5a2",id:0, answer:"IBM Watson", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:8},
+	    {_id:"Q5a2-A2",qId:"Q5a2",id:1, answer:"Software cognitivo de otro tipo", blurb:{title:"",text:""},average:false,icon:"",score:1, nextQuestion:8}
+	]},
+	{_id:"Q5a2a0", id:8, group:4, question:"¿Utiliza IBM Watson u otro software cognitivo en conjunto con su tecnología de procesos o decisiones?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:7,upA:"0,1", answers_array: [
+	    {_id:"Q5a2a0-A1",qId:"Q5a2a0",id:0, answer:"Sí", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:9},
+	    {_id:"Q5a2a0-A2",qId:"Q5a2a0",id:1, answer:"No", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:10}
+	]},
+	{_id:"Q5a2a0a0", id:9, group:4, question:"¿En qué medida?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:8,upA:0, answers_array: [
+	    {_id:"Q5a2a0a0-A1",qId:"Q5a2a0a0",id:0, answer:"Para ciertos proyectos", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"},
+	    {_id:"Q5a2a0a0-A2",qId:"Q5a2a0a0",id:1, answer:"En toda la empresa", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"}
+	]},
+	{_id:"Q6", id:10, group:5, question:"¿Qué tan familiarizado está con la tecnología cognitiva?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"Acerca de su empresa | Uso de software | <span class='active'>Tecnología cognitiva</span>", answers_array: [
+	    {_id:"Q6-A1",qId:"Q6",id:0, answer:"Para nada familiarizado", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,hard_finish:"learn"},
+	    {_id:"Q6-A2",qId:"Q6",id:1, answer:"Algo familiarizado", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1},
+	    {_id:"Q6-A3",qId:"Q6",id:2, answer:"Muy familiarizado", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1}
+	]},
+
+	{_id:"Q7", id:11, group:6, question:"¿En qué medida cree que las tecnologías cognitivas pueden mejorar sus operaciones empresariales?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"Acerca de su empresa | Uso de software | <span class='active'>Tecnología cognitiva</span>", answers_array: [
+	    {_id:"Q7-A4",qId:"Q7",id:0, answer:"No lo sé", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	    {_id:"Q7-A1",qId:"Q7",id:1, answer:"Para nada", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	    {_id:"Q7-A2",qId:"Q7",id:2, answer:"Un poco", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1,nextQuestion:13},
+	    {_id:"Q7-A3",qId:"Q7",id:3, answer:"Mucho", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1,nextQuestion:13}
+	]},
+
+	{_id:"Q8", id:12, group:7, question:"¿Cuál cree que será el obstáculo más grande en el momento de adoptar operaciones empresariales cognitivas?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, "multipleBlurb":"Seleccione todo lo que corresponda", guage:"Acerca de su empresa | Uso de software | <span class='active'>Tecnología cognitiva</span>", answers_array: [
+	    {_id:"Q8-A1",qId:"Q8",id:0, answer:"Mi empresa es demasiado pequeña para implementar este tipo de operación.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A2",qId:"Q8",id:1, answer:"La solución es muy cara.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A3",qId:"Q8",id:2, answer:"La solución es muy nueva, arriesgada o se encuentra en vías de desarrollo.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A4",qId:"Q8",id:3, answer:"No quiero que los robots tomen el control del mundo.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A5",qId:"Q8",id:4, answer:"Las personas influyentes o que toman las decisiones dentro de mi empresa no lo aprobarían.", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	    {_id:"Q8-A6",qId:"Q8",id:5, answer:"Otro", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Escriba su propia respuesta",hard_finish:"learn"}
+	]},
+
+	{_id:"Q9", id:13, group:8, question:"¿Cuáles son sus objetivos al implementar tecnologías cognitivas en sus operaciones empresariales?", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, "multipleBlurb":"Seleccione todo lo que corresponda", guage:"Acerca de su empresa | Uso de software | <span class='active'>Tecnología cognitiva</span>", answers_array: [
+	    {_id:"Q9-A1",qId:"Q9",id:0, answer:"Mejorar el autoservicio del cliente", blurb:{title:"",text:"Permitir que los sistemas inteligentes ayuden a los clientes y, al mismo tiempo, minimizar el manejo manual de excepciones del servicio."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A2",qId:"Q9",id:1, answer:"Mejorar las capacidades de los trabajadores cualificados.", blurb:{title:"",text:"Aumentar las habilidades de sus empleados brindándoles información factible en el momento adecuado."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A3",qId:"Q9",id:2, answer:"Automatizar las funciones administrativas.", blurb:{title:"",text:"Automatización flexible que combina el flujo de trabajo con las reglas empresariales."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A4",qId:"Q9",id:3, answer:"Consumir y aprovechar los datos “secundarios” sin estructura (videos, redes sociales, etc.).", blurb:{title:"",text:"Usar el entendimiento cognitivo para descubrir tendencias a partir de datos que antes no eran accesibles."},average:false,icon:"",score:1,nextQuestion:14},
+	    {_id:"Q9-A5",qId:"Q9",id:4, answer:"No lo sé", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"learn"},
+	    {_id:"Q9-A6",qId:"Q9",id:5, answer:"Otro", blurb:{title:"",text:""},with_input:true,with_input_placeholder:"Escriba su propia respuesta",average:false,icon:"",score:1,nextQuestion:14},
+	]},
+
+	{_id:"Q10", id:14, group:9, question:"¿Ya tiene un caso de uso en mente para implementar las tecnologías cognitivas?", answerPerRow:1, icons: false, selectedAnswerID: null, guage:"Acerca de su empresa | Uso de software | <span class='active'>Tecnología cognitiva</span>", answers_array: [
+	    {_id:"Q10-A1",qId:"Q10",id:0, answer:"Sí", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"Cuéntenos sobre él.",hard_finish:"build"},
+	    {_id:"Q10-A2",qId:"Q10",id:1, answer:"No", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"build"}
+	]}
+
+]});

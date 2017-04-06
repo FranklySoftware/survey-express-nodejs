@@ -1,0 +1,117 @@
+use cbo;
+
+db.questions.insert({_id:"Q1",id:0, group:0, question:"어느 지역에 계십니까?", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+	{_id:"Q1-A1", qId:"Q1",id:0, answer:"아프리카", blurb:{title:"",text:""}, average:false, icon:""},
+	{_id:"Q1-A2", qId:"Q1",id:1, answer:"아시아 태평양", blurb:{title:"", text:""}, average:false, icon:""},
+	{_id:"Q1-A3", qId:"Q1",id:2, answer:"중국", blurb:{title:"", text:""}, average:false, icon:""},
+	{_id:"Q1-A4", qId:"Q1",id:3, answer:"유럽", blurb:{title:"", text:""}, average:false, icon:""},
+	{_id:"Q1-A5", qId:"Q1",id:4, answer:"일본", blurb:{title:"", text:""}, average:false, icon:""},
+	{_id:"Q1-A6", qId:"Q1",id:5, answer:"남아메리카", blurb:{title:"", text:""}, average:false, icon:""},
+	{_id:"Q1-A7", qId:"Q1",id:6, answer:"중동", blurb:{title:"", text:""}, average:false, icon:""},
+	{_id:"Q1-A8", qId:"Q1",id:7, answer:"북아메리카", blurb:{title:"", text:""}, average:false, icon:""},
+]});
+
+db.questions.insert({_id:"Q2",id:1, group:1, question:"귀사는 어떤 산업군에 속해 있습니까?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+	{_id:"Q2-A1",qId:"Q2",id:0, answer:"자동차", blurb:{title:"",text:""},average:false,icon:"icons/q1/auto.png"},
+	{_id:"Q2-A2",qId:"Q2",id:1, answer:"통신", blurb:{title:"",text:""},average:false,icon:"icons/q1/communication.png"},
+	{_id:"Q2-A3",qId:"Q2",id:2, answer:"일반 소비재", blurb:{title:"",text:""},average:false,icon:"icons/q1/consumer.png"},
+	{_id:"Q2-A4",qId:"Q2",id:3, answer:"교육", blurb:{title:"",text:""},average:false,icon:"icons/q1/education.png"},
+	{_id:"Q2-A5",qId:"Q2",id:4, answer:"에너지 및 유틸리티", blurb:{title:"",text:""},average:false,icon:"icons/q1/energy.png"},
+	{_id:"Q2-A6",qId:"Q2",id:5, answer:"금융 서비스", blurb:{title:"",text:""},average:false,icon:"icons/q1/financial.png"},
+	{_id:"Q2-A7",qId:"Q2",id:6, answer:"정부", blurb:{title:"",text:""},average:false,icon:"icons/q1/goverment.png"},
+	{_id:"Q2-A8",qId:"Q2",id:7, answer:"의료", blurb:{title:"",text:""},average:false,icon:"icons/q1/healthcare.png"},
+	{_id:"Q2-A9",qId:"Q2",id:8, answer:"보험", blurb:{title:"",text:""},average:false,icon:"icons/q1/insurance.png"},
+	{_id:"Q2-A10",qId:"Q2",id:9, answer:"제조", blurb:{title:"",text:""},average:false,icon:"icons/q1/manufacturing.png"},
+	{_id:"Q2-A11",qId:"Q2",id:10, answer:"의약", blurb:{title:"",text:""},average:false,icon:"icons/q1/pharmaceuticals.png"},
+	{_id:"Q2-A12",qId:"Q2",id:11, answer:"소매", blurb:{title:"",text:""},average:false,icon:"icons/q1/retail.png"},
+	{_id:"Q2-A13",qId:"Q2",id:12, answer:"여행", blurb:{title:"",text:""},average:false,icon:"icons/q1/travel.png"},
+	{_id:"Q2-A14",qId:"Q2",id:13, answer:"기타", blurb:{title:"",text:""},average:false,icon:"icons/q1/other.png"}
+]});
+
+db.questions.insert({_id:"Q3",id:2, group:2, question:"어떤 역할을 담당하고 계십니까? (딱 맞는 역할이 없다면 가장 비슷한 역할을 선택하십시오)", answerPerRow:4, icons: false, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+	{_id:"Q3-A1",qId:"Q3",id:0, answer:"CIO (최고혁신책임자)", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A2",qId:"Q3",id:1, answer:"COO (최고운영책임자)", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A3",qId:"Q3",id:2, answer:"CTO(최고기술책임자)", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A4",qId:"Q3",id:3, answer:"기타 경영진 및 임원", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A5",qId:"Q3",id:4, answer:"비즈니스 분석가", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A6",qId:"Q3",id:5, answer:"개발자", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A7",qId:"Q3",id:6, answer:"IT 아키텍트", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A8",qId:"Q3",id:7, answer:"프로세스 설계자", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A9",qId:"Q3",id:8, answer:"전략 및 기획 담당자", blurb:{title:"",text:""},average:false,icon:""},
+	{_id:"Q3-A10",qId:"Q3",id:9, answer:"기타 (업무 전문가)", blurb:{title:"",text:""},average:false,icon:""}
+]});
+
+db.questions.insert({_id:"Q4",id:3, group:3, question:"귀사의 직원은 몇 명입니까?", answerPerRow:4, icons: true, selectedAnswerID: null, guage:"<span class='active'>귀사의 비즈니스</span> | 소프트웨어 사용 여부 | 코그너티브 기술", answers_array: [
+	{_id:"Q4-A1",qId:"Q4",id:0, answer:"0~99명", blurb:{title:"",text:""},average:false,icon:"icons/q3/0_99.png"},
+	{_id:"Q4-A2",qId:"Q4",id:1, answer:"100~499명", blurb:{title:"",text:""},average:false,icon:"icons/q3/100_499.png"},
+	{_id:"Q4-A3",qId:"Q4",id:2, answer:"500~999명", blurb:{title:"",text:""},average:false,icon:"icons/q3/500_999.png"},
+	{_id:"Q4-A4",qId:"Q4",id:3, answer:"1,000명 이상", blurb:{title:"",text:""},average:false,icon:"icons/q3/1000_.png"}
+]});
+
+db.questions.insert({_id:"Q5",id:4, group:4, question:"어떤 소프트웨어를 사용하고 계십니까? (복수 선택 가능)", answerPerRow:4, icons: true, selectedAnswerID: null,multiple: true, guage:"About Your Business | <span class='active'>Software Usage</span> | Cognitive Technology", answers_array: [
+	{_id:"Q5-A1",qId:"Q5",id:0, answer:"비즈니스 프로세스 관리", blurb:{title:"",text:"비즈니스 프로세스 관리 솔루션은 업무 전문가들이 효율성을 극대화하고 비용을 최소화하기 위해 비즈니스 프로세스를 문서화, 자동화, 관리 및 지속적으로 개선할 수 있게 해줍니다."},average:false,icon:"icons/q4/process.png", nextQuestion:5},
+	{_id:"Q5-A2",qId:"Q5",id:1, answer:"업무적 의사결정 관리", blurb:{title:"",text:"업무적 의사결정 관리 솔루션은 업무 전문가들이 수익을 극대화할 수 있도록, 반복 가능한 비즈니스 룰, 이벤트 및 업무적 의사결정을 관리하고 자동화할 수 있게 해줍니다."},average:false,icon:"icons/q4/decision.png", nextQuestion:6},
+	{_id:"Q5-A3",qId:"Q5",id:2, answer:"코그너티브 소프트웨어", blurb:{title:"",text:"사람과 머신이 자연스럽게 상호작용할 수 있도록, 머신에서 자연어 처리 및 학습을 가능하게 하는 기술을 의미합니다. 이를 통해 인간의 전문지식과 인지 컴퓨팅 능력을 극대화합니다."},average:false,icon:"icons/q4/cognitive.png", nextQuestion:7},
+	{_id:"Q5-A4",qId:"Q5",id:3, answer:"해당 사항 없음 ", blurb:{title:"",text:""},average:false,icon:"icons/q4/none.png"},
+]});
+
+db.questions.insert({_id:"Q5a0", id:5, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:0, answers_array: [
+	{_id:"Q5a0-A1",qId:"Q5a0",id:0, answer:"IBM Business Process Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	{_id:"Q5a0-A2",qId:"Q5a0",id:1, answer:"타사 BPM 솔루션", blurb:{title:"",text:""},average:false,icon:"",score:1}
+]});
+
+db.questions.insert({_id:"Q5a1", id:6, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:1, answers_array: [
+	{_id:"Q5a1-A1",qId:"Q5a1",id:0, answer:"IBM Operational Decision Manager", blurb:{title:"",text:""},average:false,icon:"",score:1},
+	{_id:"Q5a1-A2",qId:"Q5a1",id:1, answer:"타사 비즈니스 룰 솔루션", blurb:{title:"",text:""},average:false,icon:"",score:1}
+]});
+
+db.questions.insert({_id:"Q5a2", id:7, group:4, question:"", answerPerRow:1, icons: false, selectedAnswerID: null, upQ:4,upA:2, answers_array: [
+	{_id:"Q5a2-A1",qId:"Q5a2",id:0, answer:"IBM Watson", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:8},
+	{_id:"Q5a2-A2",qId:"Q5a2",id:1, answer:"타사 코그너티브 솔루션", blurb:{title:"",text:""},average:false,icon:"",score:1, nextQuestion:8}
+]});
+
+db.questions.insert({_id:"Q5a2a0", id:8, group:4, question:"귀사가 사용하는 IBM Watson 또는 타사 코그너티브 솔루션은 귀사의 프로세스 또는 의사결정 기술과 연계되어 있습니까?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:7,upA:"0,1", answers_array: [
+	{_id:"Q5a2a0-A1",qId:"Q5a2a0",id:0, answer:"예", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:9},
+	{_id:"Q5a2a0-A2",qId:"Q5a2a0",id:1, answer:"아니요", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:10}
+]});
+
+db.questions.insert({_id:"Q5a2a0a0", id:9, group:4, question:"어느 정도로 활용되고 있습니까?", answerPerRow:1, icons: false, selectedAnswerID: null,upQ:8,upA:0, answers_array: [
+	{_id:"Q5a2a0a0-A1",qId:"Q5a2a0a0",id:0, answer:"단위 프로젝트", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"},
+	{_id:"Q5a2a0a0-A2",qId:"Q5a2a0a0",id:1, answer:"전사적 적용", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"rollout"}
+]});
+
+db.questions.insert({_id:"Q6", id:10, group:5, question:"귀하는 코그너티브 기술에 대해 얼마나 알고 계십니까?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+	{_id:"Q6-A1",qId:"Q6",id:0, answer:"전혀 모른다", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,hard_finish:"learn"},
+	{_id:"Q6-A2",qId:"Q6",id:1, answer:"약간 알고 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1},
+	{_id:"Q6-A3",qId:"Q6",id:2, answer:"잘 알고 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1}
+]});
+
+db.questions.insert({_id:"Q7", id:11, group:6, question:"귀하는 코그너티브 기술이 얼마나 귀사의 비즈니스 업무 방식을 개선할 수 있다고 생각하십니까?", answerPerRow:1, icons: true, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+	{_id:"Q7-A4",qId:"Q7",id:0, answer:"잘 모른다", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	{_id:"Q7-A1",qId:"Q7",id:1, answer:"전혀 개선할 수 없다", blurb:{title:"",text:""},average:false,icon:"icons/q5/not_at_all.png",score:1,nextQuestion:12},
+	{_id:"Q7-A2",qId:"Q7",id:2, answer:"약간 개선할 수 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/somewhat.png",score:1,nextQuestion:13},
+	{_id:"Q7-A3",qId:"Q7",id:3, answer:"많이 개선할 수 있다", blurb:{title:"",text:""},average:false,icon:"icons/q5/very.png",score:1,nextQuestion:13}
+]});
+
+db.questions.insert({_id:"Q8", id:12, group:7, question:"코그너티브 비즈니스 오퍼레이션을 귀사에 적용하고자 한다면, 어떤 영역이 극복해야 할 과제라고 생각하십니까? (복수 선택 가능)", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+	{_id:"Q8-A1",qId:"Q8",id:0, answer:"회사 규모가 너무 작아서 적용할 수 없다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	{_id:"Q8-A2",qId:"Q8",id:1, answer:"솔루션이 너무 비싸다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	{_id:"Q8-A3",qId:"Q8",id:2, answer:"솔루션이 너무 새롭고, 위험하며, 아직 개발이 덜 되어 있는 것 같다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	{_id:"Q8-A4",qId:"Q8",id:3, answer:"나는 로봇이 세상을 지배하는 것을 원하지 않는다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	{_id:"Q8-A5",qId:"Q8",id:4, answer:"우리 회사의 의사결정권자나 다른 고위 임원들이 지지하지 않을 것이다", blurb:{title:"",text:""},average:false,icon:"",score:1,nextQuestion:14,hard_finish:"learn"},
+	{_id:"Q8-A6",qId:"Q8",id:5, answer:"기타", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"본인의 생각을 기재해 주십시오",hard_finish:"learn"}
+]});
+
+db.questions.insert({_id:"Q9", id:13, group:8, question:"귀사의 비즈니스에 코그너티브 기술을 적용하고자 하는 목적은 무엇입니까? (복수 선택 가능)", answerPerRow:1, icons: false, selectedAnswerID: null, multiple:true, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+	{_id:"Q9-A1",qId:"Q9",id:0, answer:"고객 서비스 강화", blurb:{title:"",text:"예외 사항에 대한 수작업 취급을 최소화하여, 지능화된 시스템들이 고객들을 응대"},average:false,icon:"",score:1,nextQuestion:14},
+	{_id:"Q9-A2",qId:"Q9",id:1, answer:"업무 전문가들의 능력 향상", blurb:{title:"",text:"적절한 시기에 적절한 조치를 취하여 직원 기술 향상"},average:false,icon:"",score:1,nextQuestion:14},
+	{_id:"Q9-A3",qId:"Q9",id:2, answer:"백오피스 기능 자동화", blurb:{title:"",text:"워크플로우와 비즈니스 룰을 결합하여 프로세스 자동화 "},average:false,icon:"",score:1,nextQuestion:14},
+	{_id:"Q9-A4",qId:"Q9",id:3, answer:"구조화되지 않은 다크 데이터(비디오, 소셜 등) 활용", blurb:{title:"",text:"과거에 접근할 수 없었던 데이터로부터 트렌드를 파악하기 위해 코그너티브 기술 활용"},average:false,icon:"",score:1,nextQuestion:14},
+	{_id:"Q9-A5",qId:"Q9",id:4, answer:"잘 모름", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"learn"},
+	{_id:"Q9-A6",qId:"Q9",id:5, answer:"기타", blurb:{title:"",text:""},with_input:true,with_input_placeholder:"본인의 생각을 기재해 주십시오",average:false,icon:"",score:1,nextQuestion:14},
+]});
+
+db.questions.insert({_id:"Q10", id:14, group:9, question:"코그너티브 기술을 활용하고자 하는 적용 시나리오(Use Case)가 있습니까?", answerPerRow:1, icons: false, selectedAnswerID: null, guage:"About Your Business | Software Usage | <span class='active'>Cognitive Technology</span>", answers_array: [
+	{_id:"Q10-A1",qId:"Q10",id:0, answer:"예", blurb:{title:"",text:""},average:false,icon:"",score:1,with_input:true,with_input_placeholder:"그것에 대해 알려 주십시오",hard_finish:"build"},
+	{_id:"Q10-A2",qId:"Q10",id:1, answer:"아니요", blurb:{title:"",text:""},average:false,icon:"",score:1,hard_finish:"build"}
+]});

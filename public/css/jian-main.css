@@ -1,0 +1,64 @@
+#wrapper {
+  position: absolute; }
+  #wrapper #container {
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    position: absolute;
+    width: 1024px;
+    height: 130px; }
+    #wrapper #container .someText {
+      position: absolute;
+      top: 300px; }
+    #wrapper #container #graphView {
+      background-color: gray;
+      width: 1024px;
+      height: 150px; }
+      #wrapper #container #graphView .line {
+        width: 20px;
+        height: 100px;
+        background-color: #3e8cb5;
+        float: left; }
+      #wrapper #container #graphView .line:hover {
+        background-color: #4dafe2; }
+    #wrapper #container .microphone {
+      width: 100%; }
+    #wrapper #container .micButton {
+      background: url("../images/microphone.svg") no-repeat;
+      width: 120px;
+      height: 120px;
+      margin: 0px auto;
+      cursor: pointer; }
+    #wrapper #container .micButton.recording {
+      background: url("../images/microphone_running.svg") no-repeat; }
+    #wrapper #container .micButton.recording:hover {
+      background: url("../images/microphone_running.svg") no-repeat; }
+    #wrapper #container .micButton-preload {
+      display: none; }
+    #wrapper #container .micButton-preload, #wrapper #container .micButton:hover {
+      background: url("../images/microphone_hover.svg") no-repeat; }
+    #wrapper #container .micButton:hover .micText {
+      text-decoration: underline; }
+
+#curtainView {
+  display: none;
+  position: absolute; }
+  #curtainView .bg {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    opacity: 0.6; }
+  #curtainView .loadingPanel {
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px 20px 15px; }
+    #curtainView .loadingPanel .text {
+      color: black;
+      position: absolute;
+      left: 17px;
+      top: 5px; }
+
+/*# sourceMappingURL=main.css.map */
